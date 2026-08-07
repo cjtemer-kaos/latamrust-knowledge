@@ -196,3 +196,13 @@ See `docs/TAILSCALE.md` for complete guide.
 
 **Last Updated**: August 7, 2026
 **Maintained by**: KAOS_MCS (admin)
+
+## 🤖 PC1 Knowledge (Hermes Agent)
+
+Desde 2026-08-07, este repo unifica el conocimiento de **PC1 (agente Hermes)** y **PC2 (server)**.
+
+- `pc1-knowledge/PC1-KNOWLEDGE.md` — Launcher v5, Discord bot, configs, reglas
+- `pc1-knowledge/launcher/` — Código fuente del launcher v5.0
+- `pc1-knowledge/discord/` — Código del bot Discord (directo a Hermes)
+
+**Regla de oro**: La comunicación PC1 ↔ PC2 NUNCA se corta. Todo se documenta aquí.

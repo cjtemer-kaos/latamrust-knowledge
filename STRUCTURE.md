@@ -42,3 +42,18 @@ latamrust-knowledge/
 - **Server issues?** Check `docs/TROUBLESHOOTING.md`
 - **Config questions?** See `docs/SERVER-CONFIG.md`
 - **Staff panel?** Read `docs/STAFF-PANEL.md`
+
+## PC1 Knowledge (Agente Hermes - KAOS_MCS)
+
+```
+pc1-knowledge/
+├── PC1-KNOWLEDGE.md              # Conocimiento completo de PC1
+├── launcher/
+│   ├── launcher_v5.py            # Launcher v5.0 (Google Drive + Java 21 + skins)
+│   ├── main_v5.py                # Entry point PyInstaller
+│   └── sync_skins.py             # Sync de skins Easy NPC
+└── discord/
+    └── discord_bot.py            # Bot Discord conectado directo a Hermes
+```
+
+**Unificado**: 2026-08-07 — PC1 + PC2 conocimiento en un solo repo
