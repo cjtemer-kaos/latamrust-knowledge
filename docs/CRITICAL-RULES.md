@@ -123,6 +123,36 @@ fabric-server-launch.jar (639B)
 
 **El launcher ORIGINAL (639B) es el que funciona. NUNCA sobrescribir con el del Fabric Installer.**
 
+### 9. NUNCA correr comandos chunky con el server vivo
+
+```bash
+# ❌ NUNCA HACER ESTO (con el server corriendo):
+mcrcon "chunky status"
+mcrcon "chunky progress"
+mcrcon "chunky cancel"
+```
+
+**Por qué**: Estos comandos bloquean el **Server thread** en mundos grandes (60k×60k). El hilo principal queda congelado procesando millones de chunks → el server deja de responder → **todos los jugadores son expulsados**.
+
+**Evidencia**: 2026-08-07 — `chunky cancel` con timeout en mcrcon (15s) se envió al server pero siguió ejecutándose → Server thread bloqueado → "Timed out waiting for world statistics" → ambos jugadores desconectados al mismo segundo.
+
+**Regla**: Chunky solo se toca con el server **APAGADO** (config files) o con muchísimo cuidado cuando no hay jugadores.
+
+### 10. SIEMPRE verificar configs de mods nuevos
+
+```bash
+# ❌ NUNCA asumir que los defaults son correctos
+# ✅ SIEMPRE leer la config después de instalar un mod nuevo
+```
+
+**Evidencia**: 2026-08-07 — Mods de rendimiento nuevos (ThreadTweak, ServerCore, PacketFixer) instalados sin configurar:
+- ThreadTweak: main priority = 1 (mínimo) → Server thread sin prioridad
+- ServerCore: activation-range = false → TODOS los mobs tickeados
+- ServerCore: monster spawn-interval = 1 → spawneando cada tick
+- Resultado: **63 segundos de atrasado** (1260 ticks), server injugable
+
+**Fix**: Ver `docs/PERFORMANCE-MODS.md` para configs correctas.
+
 ---
 
 **Última actualización**: 2026-08-07

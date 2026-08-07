@@ -11,6 +11,7 @@ Complete documentation for the LATAMRUST COBBLEMON server (Fabric 1.21.1).
 - [Quick Status](#quick-status)
 - [Server Overview](#server-overview)
 - [Critical Rules](#critical-rules)
+- [Performance Mods](#performance-mods)
 - [World Configuration](#world-configuration)
 - [Mods List](#mods-list)
 - [Staff Panel](#staff-panel)
@@ -71,6 +72,21 @@ ClassTweakerFormatException: Namespace (intermediary) does not match current run
 ```
 
 The ORIGINAL launcher (639B) includes intermediary and works correctly. **NEVER overwrite it.**
+
+## ⚡ Performance Mods
+
+Mods de rendimiento instalados y configurados:
+
+| Mod | Versión | Config |
+|-----|---------|--------|
+| ThreadTweak | 0.1.5 | Main priority = 5 (normal) |
+| ServerCore | 1.5.19 | activation-range: true, spawn-interval: 4 |
+| PacketFixer | 3.3.1 | allSizesUnlimited: false |
+| ModernFix | 5.25.1 | Custom overrides |
+| Lithium | 0.15.4 | Default (bien) |
+| FerriteCore | 7.0.3 | Default (bien) |
+
+⚠️ **IMPORTANTE**: Estos mods REQUIEREN configuración manual. Los defaults causan lag severo. Ver `docs/PERFORMANCE-MODS.md`.
 
 ## 🌍 World Configuration
 

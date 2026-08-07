@@ -9,6 +9,7 @@ latamrust-knowledge/
 │
 ├── docs/                        # Documentation
 │   ├── CRITICAL-RULES.md        # ⛔ MANDATORY READ - Rules to not break server
+│   ├── PERFORMANCE-MODS.md      # ⚡ Performance mod configs (ThreadTweak, ServerCore, etc.)
 │   ├── ANTICHEAT.md             # Anticheat system
 │   ├── CHUNKY-GUIDE.md          # Chunky world generation
 │   ├── CLAIMBLOCKS-DECISION.md  # ClaimBlocks vs FTB Teams
