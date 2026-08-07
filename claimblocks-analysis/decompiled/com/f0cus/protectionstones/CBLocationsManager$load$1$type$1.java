@@ -1,0 +1,22 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  com.google.gson.reflect.TypeToken
+ *  kotlin.Metadata
+ */
+package com.f0cus.protectionstones;
+
+import com.f0cus.protectionstones.StoneLocationData;
+import com.google.gson.reflect.TypeToken;
+import java.util.List;
+import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
+import kotlin.Metadata;
+
+@Metadata(mv={2, 2, 0}, k=1, xi=48, d1={"\u0000\u001f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000*\u0001\u0000\b\n\u0018\u00002\u001e\u0012\u001a\u0012\u0018\u0012\u0004\u0012\u00020\u0003\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u00050\u00040\u0002j\u0002`\u00060\u0001\u00a8\u0006\u0007"}, d2={"com/f0cus/protectionstones/CBLocationsManager.load.1.type.1", "Lcom/google/gson/reflect/TypeToken;", "Ljava/util/concurrent/ConcurrentHashMap;", "Ljava/util/UUID;", "", "Lcom/f0cus/protectionstones/StoneLocationData;", "Lcom/f0cus/protectionstones/PlayerLocationsMap;", "ClaimBlocks"})
+public static final class CBLocationsManager.load.1.type.1
+extends TypeToken<ConcurrentHashMap<UUID, List<StoneLocationData>>> {
+    CBLocationsManager.load.1.type.1() {
+    }
+}
