@@ -2,6 +2,91 @@
 
 ## Common Issues
 
+### "Namespace (intermediary) does not match current runtime namespace (official)"
+
+**Symptoms**: Server crashes on startup with:
+```
+ClassTweakerFormatException: Namespace (intermediary) does not match current runtime namespace (official)
+```
+
+**Cause**: The `fabric-server-launch.jar` was overwritten by the Fabric Installer (616B) which does NOT include `intermediary-1.21.1.jar` in its Class-Path.
+
+**Solution**:
+```bash
+# 1. Check launcher size
+stat -c%s fabric-server-launch.jar  # Should be 639, not 616
+
+# 2. If 616, restore backup
+cp fabric-server-launch.jar.bak fabric-server-launch.jar
+
+# 3. Verify intermediary in Class-Path
+unzip -p fabric-server-launch.jar META-INF/MANIFEST.MF | grep intermediary
+```
+
+**Prevention**: NEVER run `java -jar fabric-installer.jar`. See `CRITICAL-RULES.md`.
+
+---
+
+### "NoClassDefFoundError: org/spongepowered/asm/launch/MixinBootstrap"
+
+**Symptoms**: Server crashes on startup with:
+```
+java.lang.NoClassDefFoundError: org/spongepowered/asm/launch/MixinBootstrap
+```
+
+**Cause**: The `sponge-mixin-0.17.3+mixin.0.8.7.jar` is missing from `libraries/net/fabricmc/sponge-mixin/`.
+
+**Solution**:
+```bash
+# 1. Check if directory exists
+ls libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/
+
+# 2. If missing, download from Maven
+mkdir -p libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7
+curl -L -o libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar \
+  "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+```
+
+**Prevention**: NEVER delete the sponge-mixin directory. See `CRITICAL-RULES.md`.
+
+---
+
+### "staff-panel requires fabricloader >=0.19.3"
+
+**Symptoms**: Server crashes with:
+```
+Incompatible mods found!
+staff-panel 1.0.0 needs fabricloader >=0.19.3
+yawp 0.6.3-beta3 needs fabricloader >=0.19.2
+```
+
+**Cause**: MCSS or start.bat is using the old 0.18.4 loader instead of 0.19.3.
+
+**Solution**:
+```bash
+# 1. Check MCSS config
+cat mcss_server_config.json | grep startupLine
+# Must say: -jar fabric-server-launch.jar nogui
+# NOT: -jar .fabric/server/fabric-loader-server-0.18.4-minecraft-1.21.1.jar
+
+# 2. Fix if wrong
+python3 -c "
+import json
+with open('mcss_server_config.json', 'r') as f:
+    cfg = json.load(f)
+cfg['startupLine'] = cfg['startupLine'].replace(
+    '.fabric/server/fabric-loader-server-0.18.4-minecraft-1.21.1.jar',
+    'fabric-server-launch.jar'
+)
+with open('mcss_server_config.json', 'w') as f:
+    json.dump(cfg, f, indent=2)
+"
+```
+
+**Prevention**: NEVER downgrade to 0.18.4. See `CRITICAL-RULES.md`.
+
+---
+
 ### "Can't place blocks"
 
 **Symptoms**: Player cannot place blocks
@@ -24,6 +109,8 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "ftbchunks list"
 # Bypass protection (admin)
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "ftbchunks admin bypass_protection"
 ```
+
+---
 
 ### "RCON connection failed"
 
@@ -50,6 +137,8 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "list"
 tailscale status
 ```
 
+---
+
 ### "Chunky not generating"
 
 **Symptoms**: Chunky progress stuck
@@ -70,6 +159,8 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "chunky start"
 # Check memory
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "memory"
 ```
+
+---
 
 ### "Player kicked for mods"
 
@@ -92,6 +183,8 @@ cat config/latamrust-core.config
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "lp user <player> parent set staff"
 ```
 
+---
+
 ### "Jail not working"
 
 **Symptoms**: Jail command fails
@@ -113,14 +206,11 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "tp <player> 0 -60 0"
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "lp user <player> permissions"
 ```
 
+---
+
 ## Performance Issues
 
 ### High Latency
-
-**Causes**:
-1. Network congestion
-2. Server overload
-3. Tailscale relay
 
 **Solutions**:
 ```bash
@@ -136,11 +226,6 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "view-distance 8"
 
 ### Memory Issues
 
-**Causes**:
-1. Too many entities
-2. Memory leak
-3. Insufficient RAM
-
 **Solutions**:
 ```bash
 # Check memory
@@ -153,33 +238,11 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "kill @e[type=item]"
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "restart"
 ```
 
-### Chunk Loading Issues
-
-**Causes**:
-1. World border
-2. Claim protection
-3. FTB Chunks
-
-**Solutions**:
-```bash
-# Check border
-mcrcon -H 127.0.0.1 -P 25575 -p <password> "worldborder get"
-
-# Force chunk load
-mcrcon -H 127.0.0.1 -P 25575 -p <password> "forceload add <x> <z>"
-
-# Check claims
-mcrcon -H 127.0.0.1 -P 25575 -p <password> "ftbchunks list"
-```
+---
 
 ## Connection Issues
 
 ### "Connection refused"
-
-**Causes**:
-1. Server not running
-2. Wrong port
-3. Firewall blocking
 
 **Solutions**:
 ```bash
@@ -195,10 +258,6 @@ netsh advfirewall firewall show rule name="RCON"
 
 ### "Authentication failed"
 
-**Causes**:
-1. Wrong password
-2. RCON not enabled
-
 **Solutions**:
 ```bash
 # Check server.properties
@@ -209,11 +268,6 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "list"
 ```
 
 ### "Timeout"
-
-**Causes**:
-1. Network issue
-2. Server overload
-3. Tailscale issue
 
 **Solutions**:
 ```bash
@@ -227,14 +281,11 @@ mcrcon -t 10 -H 127.0.0.1 -P 25575 -p <password> "list"
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "tps"
 ```
 
+---
+
 ## World Issues
 
 ### "World corruption"
-
-**Causes**:
-1. Server crash
-2. Disk failure
-3. Mod issue
 
 **Solutions**:
 ```bash
@@ -247,11 +298,6 @@ xcopy /E /I "D:\backups\world-latest" "D:\SERVIDOR\servers\LATAMRUST COBBLEMON\w
 
 ### "Chunks not loading"
 
-**Causes**:
-1. View distance
-2. Simulation distance
-3. Performance
-
 **Solutions**:
 ```bash
 # Check view distance
@@ -263,6 +309,8 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "view-distance 12"
 # Check TPS
 mcrcon -H 127.0.0.1 -P 25575 -p <password> "tps"
 ```
+
+---
 
 ## Mod Issues
 
@@ -278,8 +326,6 @@ mcrcon -H 127.0.0.1 -P 25575 -p <password> "tps"
 
 ### "Mod not loading"
 
-**Symptoms**: Mod features not working
-
 **Solutions**:
 ```bash
 # Check logs
@@ -291,6 +337,8 @@ ls mods/ | grep "modname"
 # Check version compatibility
 cat mods/modname.jar
 ```
+
+---
 
 ## Logging
 
@@ -327,6 +375,8 @@ tail -100 logs/latamrust-core.log
 tail -100 logs/chunky-alerts.log
 ```
 
+---
+
 ## Getting Help
 
 ### Resources
@@ -340,7 +390,7 @@ tail -100 logs/chunky-alerts.log
 
 1. Check logs first
 2. Search error message
-3. Check documentation
+3. Check documentation (`CRITICAL-RULES.md` first!)
 4. Ask in Discord
 
 ## Version History
@@ -349,6 +399,8 @@ tail -100 logs/chunky-alerts.log
 - **v1.1** - Added common issues
 - **v1.2** - Added performance issues
 - **v1.3** - Added connection issues
+- **v1.4** - Added classTweaker/namespace issues (2026-08-07)
+- **v1.5** - Added fabric-loader-server-0.18.4 issue (2026-08-07)
 
 ---
 
