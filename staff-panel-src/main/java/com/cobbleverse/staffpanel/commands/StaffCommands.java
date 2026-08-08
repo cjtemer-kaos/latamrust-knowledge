@@ -63,6 +63,7 @@ public class StaffCommands {
 
         // /staff mute <player>
         dispatcher.register(literal("staff")
+                .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("mute")
                         .then(argument("player", StringArgumentType.word())
                                 .executes(context -> {
@@ -77,6 +78,7 @@ public class StaffCommands {
 
         // /staff kick <player>
         dispatcher.register(literal("staff")
+                .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("kick")
                         .then(argument("player", StringArgumentType.word())
                                 .executes(context -> {
@@ -91,6 +93,7 @@ public class StaffCommands {
 
         // /staff tp <player>
         dispatcher.register(literal("staff")
+                .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("tp")
                         .then(argument("player", StringArgumentType.word())
                                 .executes(context -> {
@@ -105,6 +108,7 @@ public class StaffCommands {
 
         // /staff gm <player>
         dispatcher.register(literal("staff")
+                .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("gm")
                         .then(argument("player", StringArgumentType.word())
                                 .executes(context -> {
@@ -119,6 +123,7 @@ public class StaffCommands {
 
         // /staff list
         dispatcher.register(literal("staff")
+                .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("list")
                         .executes(context -> {
                             ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
