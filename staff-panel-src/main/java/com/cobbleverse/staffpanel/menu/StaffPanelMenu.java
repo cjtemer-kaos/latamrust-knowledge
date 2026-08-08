@@ -62,6 +62,7 @@ public class StaffPanelMenu extends GenericContainerScreenHandler {
         // Row 2 — Utilities
         items[18] = createButton(Items.BOOK, "§3§lLista de Jugadores", "§7Ver todos los jugadores online");
         items[19] = createButton(Items.CLOCK, "§4§lHistorial Castigos", "§7Ver castigos anteriores (BanHammer)");
+        items[20] = createButton(Items.ENDER_EYE, "§5§lEspectar (Spectate)", "§7Espectar a un jugador en vanish");
 
         // Fill empty slots with gray glass
         for (int i = 0; i < 27; i++) {
@@ -105,6 +106,7 @@ public class StaffPanelMenu extends GenericContainerScreenHandler {
             case 12 -> StaffActions.openPlayerSelect(staffPlayer, "info");
             case 18 -> StaffActions.showPlayerList(staffPlayer);
             case 19 -> StaffActions.showPunishmentHistory(staffPlayer);
+            case 20 -> StaffActions.openPlayerSelect(staffPlayer, "spectate");
         }
     }
 

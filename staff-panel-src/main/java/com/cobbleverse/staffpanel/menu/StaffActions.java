@@ -52,6 +52,7 @@ public class StaffActions {
             case "gamemode" -> executeGamemode(staff, targetName);
             case "give" -> executeGive(staff, targetName);
             case "info" -> executeInfo(staff, targetName);
+            case "spectate" -> executeSpectate(staff, targetName);
         }
     }
 
@@ -121,6 +122,15 @@ public class StaffActions {
         staff.sendMessage(Text.literal("§d§l[Staff] §7Info de §f" + target + " §7→ ver chat"), false);
     }
 
+    private static void executeSpectate(ServerPlayerEntity staff, String target) {
+        // Enable vanish first, then spectate
+        staff.getServer().getCommandManager().executeWithPrefix(
+                staff.getCommandSource(), "vanish on");
+        staff.getServer().getCommandManager().executeWithPrefix(
+                staff.getCommandSource(), "spectate " + target);
+        staff.sendMessage(Text.literal("§5§l[Staff] §7Espectando a §f" + target + " §7en vanish"), false);
+    }
+
     // ===== PLAYER LIST =====
 
     public static void showPlayerList(ServerPlayerEntity staff) {
@@ -166,6 +176,7 @@ public class StaffActions {
             case "gamemode" -> "Gamemode";
             case "give" -> "Dar Items";
             case "info" -> "Info Jugador";
+            case "spectate" -> "Espectar";
             default -> action;
         };
     }
