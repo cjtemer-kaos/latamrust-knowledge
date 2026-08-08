@@ -2,7 +2,6 @@ package com.cobbleverse.staffpanel;
 
 import com.cobbleverse.staffpanel.commands.StaffCommands;
 import com.cobbleverse.staffpanel.menu.JailSystem;
-import com.cobbleverse.staffpanel.menu.ModMenuTypes;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -22,9 +21,6 @@ public class StaffPanelMod implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("CobbleVerse Staff Panel initializing...");
-
-        // Register menu types
-        ModMenuTypes.register();
 
         // Register commands
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {

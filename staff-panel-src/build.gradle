@@ -15,6 +15,12 @@ repositories {
 }
 
 loom {
+    sourceSets {
+        main {
+            java.srcDirs = ['main/java']
+            resources.srcDirs = ['main/resources']
+        }
+    }
     mods {
         "staffpanel" {
             sourceSet sourceSets.main
