@@ -242,3 +242,26 @@ Estos mods dicen `environment: client` o son puramente visuales:
 - GitHub (CobblemonMods, Cobblemon)
 - CurseForge (parcial — API requiere auth)
 - Repo GitHub local: github.com/cjtemer-kaos/latamrust-knowledge
+
+---
+
+## 📹 HALLAZGOS ADICIONALES DE YOUTUBE (2026-08-08)
+
+### Mods extra encontrados en videos
+| Mod | Descargas | Fuente |
+|-----|-----------|--------|
+| Clumps | 34M | XP orb clumping — critical for lag |
+| Noisium | 115K | Terrain generation acceleration |
+| Carpet | N/A | Configurable optimization rules |
+| ViaFabric | N/A | Cross-version compatibility |
+| CobbleTowns | N/A | Custom towns/structures |
+| Legends Untold | 1.2M | Legendary structures |
+| CobbleBoss | 788K | Custom world bosses |
+| Battle Tower | 421K | Endgame content |
+
+### Configs recomendadas por YouTubers
+- view-distance=6-8, simulation-distance=4-6
+- Java 21 obligatorio
+- Chunky pre-gen ANTES de abrir
+- TPS target 20, MSPT <50ms
+- NO Sodium en server (client-only)
