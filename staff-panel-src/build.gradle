@@ -15,11 +15,10 @@ repositories {
 }
 
 loom {
-    splitEnvironmentSourceSets()
     mods {
         "staffpanel" {
             sourceSet sourceSets.main
-            sourceSet sourceSets.client
+            
         }
     }
 }

@@ -7,10 +7,9 @@
     "authors": ["KAOS__MCS"],
     "contact": {},
     "license": "MIT",
-    "environment": "*",
+    "environment": "server",
     "entrypoints": {
-        "main": ["com.cobbleverse.staffpanel.StaffPanelMod"],
-        "client": ["com.cobbleverse.staffpanel.client.StaffPanelClient"]
+        "main": ["com.cobbleverse.staffpanel.StaffPanelMod"]
     },
     "depends": {
         "fabricloader": ">=0.19.3",
