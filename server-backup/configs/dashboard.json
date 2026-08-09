@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "host": "0.0.0.0",
+  "port": 8765,
+  "publicBaseUrl": "http://100.83.148.88:8765",
+  "requireLogin": true,
+  "loginTokenMinutes": 1440,
+  "sessionMinutes": 480,
+  "allowRemoteAccess": true,
+  "allowedOrigins": [],
+  "rateLimitPerMinute": 120,
+  "staticCacheSeconds": 300
+}

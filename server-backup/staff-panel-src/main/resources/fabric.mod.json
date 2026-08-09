@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "staffpanel",
+    "version": "${version}",
+    "name": "CobbleVerse Staff Panel",
+    "description": "Unified staff admin GUI panel for LATAMRUST COBBLEMON server",
+    "authors": ["KAOS__MCS"],
+    "contact": {},
+    "license": "MIT",
+    "environment": "server",
+    "entrypoints": {
+        "main": ["com.cobbleverse.staffpanel.StaffPanelMod"]
+    },
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "fabric-api": "*",
+        "minecraft": "~1.21.1",
+        "java": ">=21"
+    },
+    "suggests": {
+        "luckperms": "*",
+        "banhammer": "*"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "guid": "6251f053-d12f-44e9-b97a-38dd98d2bb67",
+  "serverTypeGuid": "c45acfcf-b4a1-4733-aab0-f78e1091ae16",
+  "name": "LATAMRUST COBBLEMON",
+  "description": "www.latamrust.com",
+  "creationDate": "2026-07-29T20:02:52.8731291-03:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "Elevated",
+  "startupMethode": "BatFile",
+  "allocatedMemory": 20480,
+  "allocatedMemorySuffix": "MB",
+  "startupLine": "\"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.11.10-hotspot\\bin\\java.exe\" -Xms10G -Xmx20G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=150 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -XX:ActiveProcessorCount=6 -XX:ParallelGCThreads=6 -XX:ConcGCThreads=2 -XX:+UseStringDeduplication -XX:+ExitOnOutOfMemoryError -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar fabric-server-launch.jar nogui",
+  "startupBatFilename": "start.bat",
+  "serverFileChecksum": "",
+  "serverFileVersion": "",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}

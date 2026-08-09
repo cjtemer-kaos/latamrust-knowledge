@@ -1,0 +1,15 @@
+{
+  "motdLines": [],
+  "iconEnabled": {
+    "description": "",
+    "value": true
+  },
+  "serverlistMotdEnabled": {
+    "description": "",
+    "value": false
+  },
+  "motds": {
+    "description": "",
+    "value": []
+  }
+}
