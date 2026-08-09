@@ -56,3 +56,17 @@ Mod server-side con:
 3. Copiar `autogamerule-fix.zip` a `world/datapacks/`
 4. Compilar staff panel: `gradle clean build`
 5. Copiar JAR a `mods/`
+
+## 📦 Mods Custom
+
+| Mod | Archivo | Descripción |
+|-----|---------|-------------|
+| Staff Panel | `staffpanel-1.0.1.jar` | Panel admin server-side, español, con razón opcional |
+| Placeholder API | `placeholder-api-2.4.2+1.21.jar` | API de placeholders |
+
+### Compilar Staff Panel
+```bash
+cd staff-panel-src
+gradle clean build
+# JAR en build/libs/staffpanel-1.0.1.jar
+```
