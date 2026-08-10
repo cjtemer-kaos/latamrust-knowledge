@@ -15,11 +15,19 @@ latamrust-knowledge/
 │   ├── CLAIMBLOCKS-DECISION.md  # ClaimBlocks vs FTB Teams
 │   ├── DATAPACKS-MODS.md        # Custom mods & datapacks
 │   ├── LUCKPERMS.md             # LuckPerms permissions
+│   ├── LP-LOADER.md             # 🔧 Orden de carga: LuckPerms→anticheat→Paradigm (deadlock fix)
+│   ├── MOD-DEVELOPMENT.md       # 🛠️ GUÍA COMPLETA para crear mods Fabric 1.21.1
 │   ├── RCON-ACCESS.md           # RCON remote access
 │   ├── SERVER-CONFIG.md         # Server configuration (0.19.3 updated)
 │   ├── STAFF-PANEL.md           # Staff panel mod docs
 │   ├── TAILSCALE.md             # Tailscale network
 │   └── TROUBLESHOOTING.md       # Common issues & fixes (0.19.3 updated)
+│
+├── mod-examples/                # Código de mods reales funcionales
+│   └── latamrust-core/          # Anticheat: networking + mixins + LP Loader + timeout 300s
+│       ├── README.md            # Qué demuestra cada feature
+│       ├── build.gradle         # Build real (Loom 1.7, Java 21)
+│       └── src/                 # Source completo (main + client)
 │
 ├── staff-panel-src/             # Staff Panel mod source code
 │   ├── build.gradle             # Gradle build file

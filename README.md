@@ -20,6 +20,9 @@ Complete documentation for the LATAMRUST COBBLEMON server (Fabric 1.21.1).
 - [RCON Access](#rcon-access)
 - [Tailscale Network](#tailscale-network)
 - [Commands Reference](#commands-reference)
+- [Cómo crear mods](docs/MOD-DEVELOPMENT.md) 🛠️
+- [Orden de carga de mods (LP Loader)](docs/LP-LOADER.md) 🔧
+- [Ejemplos de mods funcionales](mod-examples/latamrust-core/) 📦
 
 ## 🎮 Quick Status
 

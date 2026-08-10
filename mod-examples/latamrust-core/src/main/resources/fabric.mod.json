@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "latamrust-core",
+	"version": "${version}",
+	"name": "LatamRust Core",
+	"description": "LatamRust core utilities and client verification",
+	"authors": [
+		"MikaDev"
+	],
+	"contact": {
+		"homepage": "https://github.com/Developer-Mike/anticheat-fabric",
+		"sources": "https://github.com/Developer-Mike/anticheat-fabric"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/latamrust-core/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mikadev.Anticheat"
+		],
+		"server": [
+			"com.mikadev.AnticheatServer"
+		],
+		"client": [
+			"com.mikadev.AnticheatClient"
+		]
+	},
+	"mixins": [
+		"latamrust-core.mixins.json",
+		{
+			"config": "latamrust-core.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"fabric": ">=0.105.0",
+		"java": ">=21",
+		"luckperms": "*"
+	},
+	"suggests": {}
+}
