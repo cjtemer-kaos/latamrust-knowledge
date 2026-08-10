@@ -24,7 +24,7 @@ public class StaffActions {
     public static void openPanel(ServerPlayerEntity player) {
         player.openHandledScreen(new SimpleNamedScreenHandlerFactory(
                 (syncId, playerInventory, p) -> new StaffPanelMenu(syncId, playerInventory, (ServerPlayerEntity) p),
-                Text.literal("§c§lStaff Panel")
+                Text.literal("§c§lPanel de Staff")
         ));
     }
 
@@ -41,63 +41,84 @@ public class StaffActions {
 
     // ===== EXECUTE ACTIONS =====
 
-    public static void executeAction(ServerPlayerEntity staff, String action, String targetName) {
+    public static void executeAction(ServerPlayerEntity staff, String action, String targetName, String reason) {
         switch (action) {
-            case "ban" -> executeBan(staff, targetName);
-            case "mute" -> executeMute(staff, targetName);
-            case "warn" -> executeWarn(staff, targetName);
-            case "kick" -> executeKick(staff, targetName);
-            case "jail" -> executeJail(staff, targetName);
-            case "teleport" -> executeTeleport(staff, targetName);
-            case "gamemode" -> executeGamemode(staff, targetName);
-            case "give" -> executeGive(staff, targetName);
-            case "info" -> executeInfo(staff, targetName);
-            case "spectate" -> executeSpectate(staff, targetName);
+            case "ban" -> executeBan(staff, targetName, reason);
+            case "mute" -> executeMute(staff, targetName, reason);
+            case "warn" -> executeWarn(staff, targetName, reason);
+            case "kick" -> executeKick(staff, targetName, reason);
+            case "jail" -> executeJail(staff, targetName, reason);
+            case "teleport" -> executeTeleport(staff, targetName, reason);
+            case "gamemode" -> executeGamemode(staff, targetName, reason);
+            case "give" -> executeGive(staff, targetName, reason);
+            case "info" -> executeInfo(staff, targetName, reason);
+            case "spectate" -> executeSpectate(staff, targetName, reason);
         }
     }
 
     // ===== INDIVIDUAL ACTIONS =====
 
-    private static void executeBan(ServerPlayerEntity staff, String target) {
-        staff.getServer().getCommandManager().executeWithPrefix(
-                staff.getCommandSource(), "ban " + target + " [Staff Panel]");
-        staff.sendMessage(Text.literal("§c§l[Staff] §7Baneaste a §f" + target), false);
+    private static void executeBan(ServerPlayerEntity staff, String target, String reason) {
+        if (reason != null && !reason.isEmpty()) {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "ban " + target + " " + reason);
+            staff.sendMessage(Text.literal("§c§l[Staff] §7Baneaste a §f" + target + " §7— §c" + reason), false);
+        } else {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "ban " + target + " [Staff Panel]");
+            staff.sendMessage(Text.literal("§c§l[Staff] §7Baneaste a §f" + target), false);
+        }
     }
 
-    private static void executeMute(ServerPlayerEntity staff, String target) {
-        staff.getServer().getCommandManager().executeWithPrefix(
-                staff.getCommandSource(), "mute " + target);
-        staff.sendMessage(Text.literal("§6§l[Staff] §7Mutearste a §f" + target), false);
+    private static void executeMute(ServerPlayerEntity staff, String target, String reason) {
+        if (reason != null && !reason.isEmpty()) {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "mute " + target + " " + reason);
+            staff.sendMessage(Text.literal("§6§l[Staff] §7Mutearste a §f" + target + " §7— §6" + reason), false);
+        } else {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "mute " + target);
+            staff.sendMessage(Text.literal("§6§l[Staff] §7Mutearste a §f" + target), false);
+        }
     }
 
-    private static void executeWarn(ServerPlayerEntity staff, String target) {
-        staff.getServer().getCommandManager().executeWithPrefix(
-                staff.getCommandSource(), "warn " + target + " [Staff Panel]");
-        staff.sendMessage(Text.literal("§e§l[Staff] §7Advertiste a §f" + target), false);
+    private static void executeWarn(ServerPlayerEntity staff, String target, String reason) {
+        if (reason != null && !reason.isEmpty()) {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "warn " + target + " " + reason);
+            staff.sendMessage(Text.literal("§e§l[Staff] §7Advertiste a §f" + target + " §7— §e" + reason), false);
+        } else {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "warn " + target + " [Staff Panel]");
+            staff.sendMessage(Text.literal("§e§l[Staff] §7Advertiste a §f" + target), false);
+        }
     }
 
-    private static void executeKick(ServerPlayerEntity staff, String target) {
-        staff.getServer().getCommandManager().executeWithPrefix(
-                staff.getCommandSource(), "kick " + target + " [Staff Panel]");
-        staff.sendMessage(Text.literal("§a§l[Staff] §7Expulsaste a §f" + target), false);
+    private static void executeKick(ServerPlayerEntity staff, String target, String reason) {
+        if (reason != null && !reason.isEmpty()) {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "kick " + target + " " + reason);
+            staff.sendMessage(Text.literal("§a§l[Staff] §7Expulsaste a §f" + target + " §7— §a" + reason), false);
+        } else {
+            staff.getServer().getCommandManager().executeWithPrefix(
+                    staff.getCommandSource(), "kick " + target + " [Staff Panel]");
+            staff.sendMessage(Text.literal("§a§l[Staff] §7Expulsaste a §f" + target), false);
+        }
     }
 
-    private static void executeJail(ServerPlayerEntity staff, String target) {
-        // Jail system — set jail location with command block or worldedit
+    private static void executeJail(ServerPlayerEntity staff, String target, String reason) {
         staff.getServer().getCommandManager().executeWithPrefix(
                 staff.getCommandSource(), "jail " + target + " default 10m [Staff Panel]");
         staff.sendMessage(Text.literal("§b§l[Staff] §7Enviaste a carcel a §f" + target), false);
     }
 
-    private static void executeTeleport(ServerPlayerEntity staff, String target) {
-        // TP staff to target
+    private static void executeTeleport(ServerPlayerEntity staff, String target, String reason) {
         staff.getServer().getCommandManager().executeWithPrefix(
                 staff.getCommandSource(), "tp " + staff.getName().getString() + " " + target);
         staff.sendMessage(Text.literal("§5§l[Staff] §7Te teletransportaste a §f" + target), false);
     }
 
-    private static void executeGamemode(ServerPlayerEntity staff, String target) {
-        // Toggle between creative and survival
+    private static void executeGamemode(ServerPlayerEntity staff, String target, String reason) {
         ServerPlayerEntity targetPlayer = staff.getServer().getPlayerManager().getPlayer(target);
         if (targetPlayer != null) {
             String currentMode = targetPlayer.interactionManager.getGameMode().getName();
@@ -108,22 +129,19 @@ public class StaffActions {
         }
     }
 
-    private static void executeGive(ServerPlayerEntity staff, String target) {
-        // Open inventory of target player (InvSee)
+    private static void executeGive(ServerPlayerEntity staff, String target, String reason) {
         staff.getServer().getCommandManager().executeWithPrefix(
                 staff.getCommandSource(), "invsee " + target);
         staff.sendMessage(Text.literal("§1§l[Staff] §7Abriendo inventario de §f" + target), false);
     }
 
-    private static void executeInfo(ServerPlayerEntity staff, String target) {
-        // Get player info via command
+    private static void executeInfo(ServerPlayerEntity staff, String target, String reason) {
         staff.getServer().getCommandManager().executeWithPrefix(
                 staff.getCommandSource(), "data get entity " + target);
         staff.sendMessage(Text.literal("§d§l[Staff] §7Info de §f" + target + " §7→ ver chat"), false);
     }
 
-    private static void executeSpectate(ServerPlayerEntity staff, String target) {
-        // Enable vanish first, then spectate
+    private static void executeSpectate(ServerPlayerEntity staff, String target, String reason) {
         staff.getServer().getCommandManager().executeWithPrefix(
                 staff.getCommandSource(), "vanish on");
         staff.getServer().getCommandManager().executeWithPrefix(
@@ -173,7 +191,7 @@ public class StaffActions {
             case "kick" -> "Expulsar";
             case "jail" -> "Carcel";
             case "teleport" -> "Teletransportar";
-            case "gamemode" -> "Gamemode";
+            case "gamemode" -> "Modo de Juego";
             case "give" -> "Dar Items";
             case "info" -> "Info Jugador";
             case "spectate" -> "Espectar";

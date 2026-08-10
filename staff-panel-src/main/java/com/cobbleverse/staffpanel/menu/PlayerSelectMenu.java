@@ -110,7 +110,7 @@ public class PlayerSelectMenu extends GenericContainerScreenHandler {
             int playerIndex = slotIndex - 9;
             if (playerIndex < playerNames.length) {
                 String targetName = playerNames[playerIndex];
-                StaffActions.executeAction(staffPlayer, action, targetName);
+                StaffActions.executeAction(staffPlayer, action, targetName, "");
             }
             return;
         }

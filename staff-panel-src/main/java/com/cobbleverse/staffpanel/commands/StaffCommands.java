@@ -14,7 +14,6 @@ import static net.minecraft.server.command.CommandManager.argument;
 import static net.minecraft.server.command.CommandManager.literal;
 
 public class StaffCommands {
-
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
         // /staff — opens the panel
         dispatcher.register(literal("staff")
@@ -46,7 +45,7 @@ public class StaffCommands {
                 })
         );
 
-        // /staff ban <player>
+        // /staff ban <player> [reason]
         dispatcher.register(literal("staff")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("ban")
@@ -54,14 +53,23 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    StaffActions.executeAction(player, "ban", target);
+                                    StaffActions.executeAction(player, "ban", target, "");
                                     return 1;
                                 })
+                                .then(argument("reason", StringArgumentType.greedyString())
+                                        .executes(context -> {
+                                            ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
+                                            String target = StringArgumentType.getString(context, "player");
+                                            String reason = StringArgumentType.getString(context, "reason");
+                                            StaffActions.executeAction(player, "ban", target, reason);
+                                            return 1;
+                                        })
+                                )
                         )
                 )
         );
 
-        // /staff mute <player>
+        // /staff mute <player> [reason]
         dispatcher.register(literal("staff")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("mute")
@@ -69,14 +77,23 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    StaffActions.executeAction(player, "mute", target);
+                                    StaffActions.executeAction(player, "mute", target, "");
                                     return 1;
                                 })
+                                .then(argument("reason", StringArgumentType.greedyString())
+                                        .executes(context -> {
+                                            ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
+                                            String target = StringArgumentType.getString(context, "player");
+                                            String reason = StringArgumentType.getString(context, "reason");
+                                            StaffActions.executeAction(player, "mute", target, reason);
+                                            return 1;
+                                        })
+                                )
                         )
                 )
         );
 
-        // /staff kick <player>
+        // /staff kick <player> [reason]
         dispatcher.register(literal("staff")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("kick")
@@ -84,9 +101,18 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    StaffActions.executeAction(player, "kick", target);
+                                    StaffActions.executeAction(player, "kick", target, "");
                                     return 1;
                                 })
+                                .then(argument("reason", StringArgumentType.greedyString())
+                                        .executes(context -> {
+                                            ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
+                                            String target = StringArgumentType.getString(context, "player");
+                                            String reason = StringArgumentType.getString(context, "reason");
+                                            StaffActions.executeAction(player, "kick", target, reason);
+                                            return 1;
+                                        })
+                                )
                         )
                 )
         );
@@ -99,7 +125,7 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    StaffActions.executeAction(player, "teleport", target);
+                                    StaffActions.executeAction(player, "teleport", target, "");
                                     return 1;
                                 })
                         )
@@ -114,7 +140,7 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity player = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    StaffActions.executeAction(player, "gamemode", target);
+                                    StaffActions.executeAction(player, "gamemode", target, "");
                                     return 1;
                                 })
                         )
@@ -133,9 +159,9 @@ public class StaffCommands {
                 )
         );
 
-        // ===== SIMPLIFIED JAIL COMMANDS =====
+        // ===== JAIL COMMANDS =====
         
-        // /jail jail1 <player> [time] — simple syntax, time examples: 24hs, 30min, 2d
+        // /jail jail1 <player> [time] [reason]
         dispatcher.register(literal("jail")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(literal("jail1")
@@ -143,7 +169,6 @@ public class StaffCommands {
                                 .executes(context -> {
                                     ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                                     String target = StringArgumentType.getString(context, "player");
-                                    // Default 1 hour if no time specified
                                     JailSystem.jailPlayer(staff, target, "1h", StaffPanelMod.getConfigDir());
                                     return 1;
                                 })
@@ -155,12 +180,21 @@ public class StaffCommands {
                                             JailSystem.jailPlayer(staff, target, time, StaffPanelMod.getConfigDir());
                                             return 1;
                                         })
+                                        .then(argument("reason", StringArgumentType.greedyString())
+                                                .executes(context -> {
+                                                    ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
+                                                    String target = StringArgumentType.getString(context, "player");
+                                                    String time = StringArgumentType.getString(context, "time");
+                                                    JailSystem.jailPlayer(staff, target, time, StaffPanelMod.getConfigDir());
+                                                    return 1;
+                                                })
+                                        )
                                 )
                         )
                 )
         );
 
-        // /jail unjail1 <player> — simple syntax
+        // /jail unjail1 <player>
         dispatcher.register(literal("jail")
                 .then(literal("unjail1")
                         .then(argument("player", StringArgumentType.word())
@@ -174,22 +208,31 @@ public class StaffCommands {
                 )
         );
 
-        // ===== SIMPLIFIED STAFF COMMANDS =====
+        // ===== SIMPLIFIED COMMANDS =====
         
-        // /ban <player> — simplified
+        // /ban <player> [reason]
         dispatcher.register(literal("ban")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "ban", target);
+                            StaffActions.executeAction(staff, "ban", target, "");
                             return 1;
                         })
+                        .then(argument("reason", StringArgumentType.greedyString())
+                                .executes(context -> {
+                                    ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
+                                    String target = StringArgumentType.getString(context, "player");
+                                    String reason = StringArgumentType.getString(context, "reason");
+                                    StaffActions.executeAction(staff, "ban", target, reason);
+                                    return 1;
+                                })
+                        )
                 )
         );
 
-        // /unban <player> — simplified
+        // /unban <player>
         dispatcher.register(literal("unban")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
@@ -205,20 +248,29 @@ public class StaffCommands {
                 )
         );
 
-        // /mute <player> — simplified
+        // /mute <player> [reason]
         dispatcher.register(literal("mute")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "mute", target);
+                            StaffActions.executeAction(staff, "mute", target, "");
                             return 1;
                         })
+                        .then(argument("reason", StringArgumentType.greedyString())
+                                .executes(context -> {
+                                    ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
+                                    String target = StringArgumentType.getString(context, "player");
+                                    String reason = StringArgumentType.getString(context, "reason");
+                                    StaffActions.executeAction(staff, "mute", target, reason);
+                                    return 1;
+                                })
+                        )
                 )
         );
 
-        // /unmute <player> — simplified
+        // /unmute <player>
         dispatcher.register(literal("unmute")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
@@ -234,53 +286,62 @@ public class StaffCommands {
                 )
         );
 
-        // /kick <player> — simplified
+        // /kick <player> [reason]
         dispatcher.register(literal("kick")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "kick", target);
+                            StaffActions.executeAction(staff, "kick", target, "");
                             return 1;
                         })
+                        .then(argument("reason", StringArgumentType.greedyString())
+                                .executes(context -> {
+                                    ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
+                                    String target = StringArgumentType.getString(context, "player");
+                                    String reason = StringArgumentType.getString(context, "reason");
+                                    StaffActions.executeAction(staff, "kick", target, reason);
+                                    return 1;
+                                })
+                        )
                 )
         );
 
-        // /tp <player> — simplified teleport
+        // /tp <player>
         dispatcher.register(literal("tp")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "teleport", target);
+                            StaffActions.executeAction(staff, "teleport", target, "");
                             return 1;
                         })
                 )
         );
 
-        // /gm <player> — simplified gamemode toggle
+        // /gm <player>
         dispatcher.register(literal("gm")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "gamemode", target);
+                            StaffActions.executeAction(staff, "gamemode", target, "");
                             return 1;
                         })
                 )
         );
 
-        // /invsee <player> — simplified inventory view
+        // /invsee <player>
         dispatcher.register(literal("invsee")
                 .requires(source -> source.hasPermissionLevel(2))
                 .then(argument("player", StringArgumentType.word())
                         .executes(context -> {
                             ServerPlayerEntity staff = context.getSource().getPlayerOrThrow();
                             String target = StringArgumentType.getString(context, "player");
-                            StaffActions.executeAction(staff, "give", target);
+                            StaffActions.executeAction(staff, "give", target, "");
                             return 1;
                         })
                 )
