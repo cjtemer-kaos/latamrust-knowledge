@@ -4,6 +4,9 @@
 > **GitHub**: https://github.com/Avalanche7CZ/Paradigm  
 > **Modrinth**: https://modrinth.com/mod/paradigm  
 > **Dashboard**: `http://100.83.148.88:8765` (Tailscale)
+>
+> 📖 **Referencia completa (752 líneas con permisos exactos por comando, custom commands, formato, storage)**: [PARADIGM-COMPLETE-REFERENCE.md](PARADIGM-COMPLETE-REFERENCE.md)
+> 🗣️ **Fix de chat (Paradigm controla el chat, arcoíris, backups)**: [CHAT-PARADIGM.md](CHAT-PARADIGM.md)
 
 ## 📋 Visión General
 
