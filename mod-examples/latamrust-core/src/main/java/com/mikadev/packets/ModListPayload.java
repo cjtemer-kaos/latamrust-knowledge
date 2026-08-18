@@ -13,6 +13,10 @@ import com.mikadev.Anticheat;
 /**
  * C2S (Client → Server) payload carrying the client's mod list.
  * Sent by the client in response to a RequestModsPayload from the server.
+ *
+ * IMPORTANTE (2026-08-17): payload de UN SOLO campo (mods), compatible con el
+ * cliente actual. NO agregar loaderVersion/clientType (rompe compatibilidad con
+ * el cliente distribuido).
  */
 public record ModListPayload(List<String> mods) implements CustomPayload {
 
@@ -30,15 +34,13 @@ public record ModListPayload(List<String> mods) implements CustomPayload {
         @Override
         public ModListPayload decode(PacketByteBuf buf) {
             int size = buf.readVarInt();
-            java.util.List<String> mods = new java.util.ArrayList<>(size);
+            List<String> mods = new ArrayList<>(size);
             for (int i = 0; i < size; i++) {
                 mods.add(buf.readString());
             }
             return new ModListPayload(mods);
         }
     };
-
-
 
     @Override
     public Id<? extends CustomPayload> getId() {

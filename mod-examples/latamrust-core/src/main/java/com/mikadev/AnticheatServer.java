@@ -32,10 +32,16 @@ import net.luckperms.api.node.Node;
  *
  * Flow:
  * 1. Player enters PLAY phase -> server sends RequestModsPayload (S2C)
- * 2. Client collects fabric mods -> sends ModListPayload (C2S)
+ * 2. Client collects fabric mods -> sends ModListPayload (C2S)  [solo mods]
  * 3. Server receives mod list -> checks against allowed_mods whitelist
- * 4. If unauthorized -> kicks player + alerts online admins with permission
- * 5. All mod lists are logged to logs/latamrust/&lt;player&gt;.log
+ *    AND against banned_mods denylist (known cheat clients).
+ * 4. If unauthorized / banned -> kicks player + alerts online admins
+ * 5. All mod lists are logged to logs/latamrust/<player>.log
+ *
+ * 2026-08-17: SOLO server-side. El payload es de 1 campo (mods) — compatible
+ * con el cliente distribuido. La deteccion de hacks se hace comparando los mods
+ * que el cliente YA reporta contra la lista negra banned_mods (rusherhack, boze,
+ * meteor, impact, wurst...). No se toca el cliente.
  */
 public class AnticheatServer implements DedicatedServerModInitializer {
 
@@ -44,10 +50,12 @@ public class AnticheatServer implements DedicatedServerModInitializer {
     // Config keys
     public static final String KEY_ALLOWED_MODS = "allowed_mods";
     public static final String KEY_EXEMPT_GROUPS = "exempt_groups";
+    public static final String KEY_BANNED_MODS = "banned_mods";
 
     // Parsed config values
     public static Set<String> allowedMods;
     public static List<String> exemptGroups;
+    public static Set<String> bannedMods;   // known cheat clients, always kicked
 
     // Timeout in seconds for client to respond with mod list
     private static final int MOD_CHECK_TIMEOUT_SECONDS = 300;
@@ -73,7 +81,11 @@ public class AnticheatServer implements DedicatedServerModInitializer {
                "\n" +
                "# Comma-separated list of LuckPerms groups that are exempt from checks\n" +
                "# Players in these groups will not be checked or kicked\n" +
-               KEY_EXEMPT_GROUPS + "=admin,staff+,staff,builder\n";
+               KEY_EXEMPT_GROUPS + "=admin,staff+,staff,builder\n" +
+               "\n" +
+               "# Mod IDs ALWAYS banned (known cheat clients): kicked even if on allowed_mods.\n" +
+               "# Lista negra de hacks (RusherHack, Boze, Meteor, Impact, Wurst...).\n" +
+               KEY_BANNED_MODS + "=rusherhack,rusherhack-client,boze,boze-client,meteor-client,impact,wurst,aristois,future,inertia,salhack,kami,liquidbounce,lambda,b0mb,bleachhack,fdpclient,gamesense,kopykate,novoline,phobos,seppuku,sigma,tenacity,toxicclient\n";
     }
 
     void loadConfig() {
@@ -83,7 +95,6 @@ public class AnticheatServer implements DedicatedServerModInitializer {
         allowedMods = new HashSet<>(Arrays.asList(
                 CONFIG.getOrDefault(KEY_ALLOWED_MODS, "").split(",")
         ));
-        // Remove empty strings from split
         allowedMods.remove("");
 
         // Add built-in Fabric API / Fabric Loader mods that are always allowed
@@ -116,8 +127,14 @@ public class AnticheatServer implements DedicatedServerModInitializer {
         ));
         exemptGroups.removeIf(String::isEmpty);
 
-        Anticheat.LOGGER.info("Loaded config: {} allowed mods, {} exempt groups",
-                allowedMods.size(), exemptGroups.size());
+        // Parse banned mods (cheat clients)
+        bannedMods = new HashSet<>(Arrays.asList(
+                CONFIG.getOrDefault(KEY_BANNED_MODS, "").split(",")
+        ));
+        bannedMods.remove("");
+
+        Anticheat.LOGGER.info("Loaded config: {} allowed mods, {} exempt groups, {} banned mods",
+                allowedMods.size(), exemptGroups.size(), bannedMods.size());
     }
 
     @Override
@@ -125,7 +142,6 @@ public class AnticheatServer implements DedicatedServerModInitializer {
         loadConfig();
 
         // Register the C2S receiver for mod list payloads
-        // Note: Fabric API runs this handler on the server thread - safe to manipulate world state
         ServerPlayNetworking.registerGlobalReceiver(ModListPayload.ID, (payload, context) -> {
             MinecraftServer server = context.server();
             var player = context.player();
@@ -144,6 +160,25 @@ public class AnticheatServer implements DedicatedServerModInitializer {
                 Anticheat.LOGGER.info("[LatamRust] Player '{}' is exempt (LuckPerms group), skipping check",
                         playerName);
                 logModList(playerName, modList, "EXEMPT");
+                return;
+            }
+
+            // Check BANNED mods FIRST (cheat clients) — kick even if whitelisted
+            List<String> bannedFound = new ArrayList<>();
+            for (String modId : modList) {
+                if (bannedMods.contains(modId)) {
+                    bannedFound.add(modId);
+                }
+            }
+            if (!bannedFound.isEmpty()) {
+                logModList(playerName, modList, "BANNED MOD: " + bannedFound);
+                Anticheat.LOGGER.warn("[LatamRust] Player '{}' has BANNED mods (cheat client): {}",
+                        playerName, bannedFound);
+                String banKick = "§c[LatamRust Core] §fCheat client detected: §e"
+                        + String.join(", ", bannedFound)
+                        + "§c\n§7Cheating is not allowed on CobbleVerse.";
+                player.networkHandler.disconnect(Text.literal(banKick));
+                alertOnlineAdmins(server, playerName, bannedFound);
                 return;
             }
 
@@ -208,7 +243,7 @@ public class AnticheatServer implements DedicatedServerModInitializer {
             }, MOD_CHECK_TIMEOUT_SECONDS, TimeUnit.SECONDS);
         });
 
-        Anticheat.LOGGER.info("[LatamRust] Server-side verification initialized (v2.0.0)");
+        Anticheat.LOGGER.info("[LatamRust] Server-side verification initialized (v2.1.0 - deny-list)");
     }
 
     /**
@@ -283,7 +318,7 @@ public class AnticheatServer implements DedicatedServerModInitializer {
     }
 
     /**
-     * Log the player's mod list to logs/latamrust/&lt;player&gt;.log
+     * Log the player's mod list to logs/latamrust/<player>.log
      * Creates the directory and file if they don't exist.
      */
     private void logModList(String playerName, List<String> modList, String status) {
@@ -330,7 +365,6 @@ public class AnticheatServer implements DedicatedServerModInitializer {
             Anticheat.LOGGER.info("[LatamRust] LuckPerms API connected successfully");
             return cachedLpApi;
         } catch (IllegalStateException e) {
-            // LuckPermsProvider.get() throws IllegalStateException if LuckPerms isn't loaded yet
             Anticheat.LOGGER.warn("[LatamRust] LuckPerms not available: {}", e.getMessage());
             cachedLpApi = null;
             luckpermsApiResolved = true;

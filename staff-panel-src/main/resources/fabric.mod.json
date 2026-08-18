@@ -3,7 +3,7 @@
     "id": "staffpanel",
     "version": "${version}",
     "name": "CobbleVerse Staff Panel",
-    "description": "Unified staff admin GUI panel for LATAMRUST COBBLEMON server",
+    "description": "GUI de staff que dispara comandos de mods existentes (Paradigm, Jail Logic). Sin sistemas propios.",
     "authors": ["KAOS__MCS"],
     "contact": {},
     "license": "MIT",
@@ -15,10 +15,11 @@
         "fabricloader": ">=0.19.3",
         "fabric-api": "*",
         "minecraft": "~1.21.1",
-        "java": ">=21"
+        "java": ">=21",
+        "paradigm": "*",
+        "jailmod": "*"
     },
     "suggests": {
-        "luckperms": "*",
-        "banhammer": "*"
+        "luckperms": "*"
     }
 }
