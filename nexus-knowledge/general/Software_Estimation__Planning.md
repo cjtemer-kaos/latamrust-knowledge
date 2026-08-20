@@ -1,0 +1,3 @@
+# Software Estimation & Planning
+
+Techniques: 1) T-shirt sizing (S/M/L/XL). 2) Planning Poker (Fibonacci: 1,2,3,5,8,13,21). 3) Three-point: optimistic + pessimistic + most likely. 4) Reference class forecasting (compare to similar projects). 5) PERT (weighted average: (O+4M+P)/6). Common pitfalls: anchoring bias, planning fallacy (underestimate by 30-50%), Hofstadter's Law (always takes longer). Mitigation: decompose into small tasks (<2 days each), track cycle time, use historical velocity. Never give single-point estimates, always ranges. Update estimates as you learn more. Tracking: burndown chart, cumulative flow diagram.

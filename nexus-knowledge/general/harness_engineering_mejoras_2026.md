@@ -1,0 +1,3 @@
+# harness_engineering_mejoras_2026
+
+6 mejoras de Harness Engineering para SuperNEXUS v2. Repos en D:\ias\autopsia\(learn-claude-code, 12-factor-agents, LLMLingua, mem0, awesome-harness-engineering, learn-harness-engineering). Prioridad: 1)ContextCompactor multi-layer → src/core/context_compactor.py 2)HooksEngine lifecycle → src/core/hooks_engine.py 3)MemoryConsolidator 3-tier → src/core/memory_consolidator.py 4)Sprint contract en AgentLoop → agent_loop.py 5)ErrorCompactor → src/core/error_compactor.py 6)SkillLoader progresivo → src/skills/skill_loader.py. Tarea completa enviada a OpenCode msg #707627 con código, interfaces y patrones detallados.

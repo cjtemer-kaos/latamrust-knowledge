@@ -225,3 +225,14 @@ Desde 2026-08-07, este repo unifica el conocimiento de **PC1 (agente Hermes)** y
 - `pc1-knowledge/discord/` — Código del bot Discord (directo a Hermes)
 
 **Regla de oro**: La comunicación PC1 ↔ PC2 NUNCA se corta. Todo se documenta aquí.
+
+## 🧠 NEXUS Knowledge Base (para opencode / Robben)
+
+Cerebro completo de NEXUS copiado a `nexus-knowledge/` (2707 archivos, 45 categorías):
+cobblemon/, fabric/, minecraft/, config/, devops/, gaming/, optimizacion/, etc.
+
+- `SESION-2026-08-20.md` — Resumen de la sesión: launcher Electron v5 (flujo completo),
+  resource pack LATAMRUST_ES (traducciones + armas 3D), staffpanel, manuales, mods.
+- Cómo usar: busca por tema (cobblemon/, fabric/, minecraft/, config/, devops/...).
+
+**Última actualización masiva**: 2026-08-20 (sync completo de NEXUS a este repo).

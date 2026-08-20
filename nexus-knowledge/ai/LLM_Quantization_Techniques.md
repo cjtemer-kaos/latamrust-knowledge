@@ -1,0 +1,3 @@
+# LLM Quantization Techniques
+
+Post-training quantization: reduce model size 2-8x with minimal accuracy loss. RTN (Round To Nearest): naive, bad at low bits. GPTQ: one-shot weight quantization based on Optimal Brain Quantizer, 4-bit with group size 128. AWQ: activation-aware weight quantization, protects 1% 'salient' weights, outperforms GPTQ at same bit. GGUF/GGML: llama.cpp file format, uses k-quants (Q4_K_M, Q5_K_M, Q6_K, Q8_0), supports layer-wise quantization. Bitsandbytes: 8-bit (NF4/FP4) for training/fine-tuning. QuIP: lattice codebooks for extreme compression (2-bit). NF4: normalized float 4, optimal for normally distributed weights.

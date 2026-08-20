@@ -1,0 +1,3 @@
+# supernexus-capacidades-investigacion
+
+CAPACIDADES INVESTIGACION: 1) WEB SEARCH: _web_search busca internet con fuentes. 2) DEEP RESEARCH: deep_research investigacion iterativa 8 rondas Think-Search-Extract-Synthesize, reporte con fuentes. 3) AGENCY CATALOG: agency_search 266 agentes especializados. agency_list_divisions. agency_load_prompt carga prompt. 4) LIBRARY: search_library busca chats/docs/gallery/notes/research unificados. 5) SCHOLAR: gema scholar investiga cuando Director no sabe, analiza, Sage guarda en biblioteca. 6) CODE READING: read_file, search_files, entender estructura completa.

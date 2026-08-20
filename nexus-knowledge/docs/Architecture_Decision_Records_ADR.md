@@ -1,0 +1,3 @@
+# Architecture Decision Records (ADR)
+
+ADR = lightweight document recording architectural decisions. Format: Title (ADR-NNNN-title), Context (problem, forces, constraints), Decision (the chosen option and rationale), Consequences (trade-offs, implications). Status: Proposed, Accepted, Deprecated, Superseded. Store in repo at docs/adr/. Tools: adr-tools CLI. When to write: any architecturally significant decision (tech stack, patterns, critical lib, deployment model). Keep short (<500 words). Link related ADRs. Benefits: historical context, onboarding, explains 'why not X', prevents repeating debates.

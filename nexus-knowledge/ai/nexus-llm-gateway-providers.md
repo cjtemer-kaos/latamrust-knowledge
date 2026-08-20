@@ -1,0 +1,3 @@
+# nexus-llm-gateway-providers
+
+SuperNEXUS LLM gateway manages 4 providers with circuit breaker: 1) Ollama (http://127.0.0.1:11434, priority 0, health: healthy) - local models: deepseek-r1:8b, gemma2:9b, gemma4:latest, moondream, nemotron-3-nano:4b, nexus-director-v5, nexus-director-v6, nomic-embed-text, qwen2.5-coder:7b, qwen2.5:0.5b, qwen2.5vl:7b. 2) Zen (https://opencode.ai/zen/v1, priority 2, healthy). 3) Claude (http://127.0.0.1:3456, priority 2, healthy). 4) OpenRouter (https://openrouter.ai/api/v1, priority 4, healthy). Circuit breaker pattern: tracks failures, latency, auto-disables unhealthy providers. Provider selection by priority (0=local/free, 4=paid external).

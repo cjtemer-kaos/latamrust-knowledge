@@ -1,0 +1,3 @@
+# Cloud Cost Optimization (FinOps)
+
+Strategies: Right-sizing (match instance size to utilization), Spot/Preemptible instances (up to 90% discount, fault-tolerant workloads), Reserved Instances/Committed Use (1-3yr, 30-60% discount), auto-scaling (match demand), S3 lifecycle (frequent -> infrequent -> glacier). Compute: use Graviton/ARM instances (20-40% cheaper). Serverless: Lambda/Cloud Functions pay-per-invocation, good for variable workloads. Storage: compress, deduplicate, delete unused EBS volumes/snapshots. Network: intra-region traffic cheaper than cross-region. Tools: AWS Cost Explorer, Azure Cost Management, GCP Billing, Kubecost (K8s), Infracost (Terraform cost estimation).

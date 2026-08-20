@@ -1,0 +1,3 @@
+# Vector Databases Comparison
+
+Pinecone: managed, fully serverless, high-dimensional, pod-based, metadata filtering, namespace isolation, single-digit ms latency, expensive at scale. Weaviate: hybrid vector+keyword search, GraphQL API, multi-tenancy, modules (OpenAI, Cohere, HuggingFace), self-hosted or cloud. Qdrant: Rust-based, high performance, rich filtering, quantization, self-hosted or cloud, good for production. Milvus: distributed, GPU-accelerated, sharding+replication, ZooKeeper dependency, complex ops. Chroma: lightweight, embedded, good for prototyping, limited production features. pgvector: PostgreSQL extension, ACID, no external service, adequate for <1M vectors. LanceDB: columnar, embedded, no server, S3-backed.

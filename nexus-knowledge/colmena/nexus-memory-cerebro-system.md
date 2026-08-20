@@ -1,0 +1,3 @@
+# nexus-memory-cerebro-system
+
+SuperNEXUS memory has 4 layers: 1) CEREBRO: SQLite DB at ~/.nexus/brain/cerebro.db. Stores conversations (2,412), conocimientos/knowledge (177), events (2,413), interactions (2,412), patterns, working memory. API endpoints: POST /api/brain/learn (inject knowledge), GET /api/brain/knowledge?tema= (retrieve by topic), GET /api/brain/recall (search). 2) GRAPH MEMORY: 152 nodes, 1,717 edges. Node types: knowledge (150), test (1), note (1). Avg connections per node: 11.3. 3) RAG: nomic-embed-text embeddings, 2 entries, hybrid search enabled. Index built. 4) CHECKPOINTS: SQLite DB at ~/.nexus/brain/checkpoints.db. Runs tracking. Also: vault at ~/.nexus/vault with 46 notes (templates, review). Risk: 0 findings. Retry: 0 configured.

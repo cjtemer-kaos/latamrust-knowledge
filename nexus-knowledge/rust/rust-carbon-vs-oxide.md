@@ -1,0 +1,3 @@
+# rust-carbon-vs-oxide
+
+Carbon is a modern drop-in replacement for Oxide/uMod for Rust servers. Key differences: self-updating after force wipes, dynamic hooks (only loads hooks plugins use vs Oxide's 600+ always-loaded), built-in modules (gather manager, vanish, autowipe, stack manager), Harmony 2.0, SQL permissions, in-game plugin UI. Migration: same folder structure, same configs, same permission data. Most Oxide plugins work on Carbon unchanged. Best for: high-performance servers, heavy modding. Oxide best for: small servers, minimal mods. Pros Carbon: performance, auto-updates, hot reload, modern C#, built-in profiler. Cons: smaller community. Active servers: Carbon 1,100+, Oxide 9,000+. Both free.

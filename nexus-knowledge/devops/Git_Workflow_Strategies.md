@@ -1,0 +1,3 @@
+# Git Workflow Strategies
+
+GitFlow: main (production), develop (integration), feature/ (from develop), release/ (staging), hotfix/ (from main). Trunk-based: short-lived branches (<1 day), merge to main multiple times/day, feature flags for in-progress work. GitHub Flow: main + feature branches + PRs. GitLab Flow: main + environment branches (staging/production). Best practices: rebase before merge (linear history), squash commits per feature, signed commits (GPG), semantic commit messages (type(scope): description. Convention: feat:, fix:, docs:, refactor:, test:, chore:). Never force push shared branches. Use .gitignore, .gitattributes.

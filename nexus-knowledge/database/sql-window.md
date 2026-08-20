@@ -1,0 +1,3 @@
+# sql-window
+
+Window functions: 1) ROW_NUMBER. 2) RANK, DENSE_RANK. 3) LAG, LEAD. 4) FIRST_VALUE, LAST_VALUE. 5) SUM/AVG OVER. 6) PARTITION BY. 7) ORDER BY in window.

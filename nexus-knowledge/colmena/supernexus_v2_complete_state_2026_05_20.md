@@ -1,0 +1,3 @@
+# supernexus_v2_complete_state_2026_05_20
+
+SuperNEXUS v2.0 tiene 66 modulos en src/core/, 1,759 skills, 22 gemas, Electron UI con avatar 3D. Cubre ~70% de patrones de 40+ repos de autopsia. 14 gaps criticos identificados: MCP client outbound, entity linking avanzado, compresion perplejidad, dynamic skill creation, MCP tool builder, MEDUSA completo, audio avatar, KG viewer, model metadata, testing framework, prompt composer, permission bubbling, coordinator decomposition, session scoping. Patrones integrados: Rowboat, OpenSwarm, learn-claude-code, 12-factor, LLMLingua, mem0 V3, medusa, agent-zero, hermes-agent, aden-hive, Ruflo, byo-coding-agent, Goose UI, engram, aider, modded-nanogpt.

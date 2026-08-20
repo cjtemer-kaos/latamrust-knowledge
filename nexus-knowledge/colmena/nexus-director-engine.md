@@ -1,0 +1,3 @@
+# nexus-director-engine
+
+DirectorNexus is the orchestration engine of SuperNEXUS. Features: 22 original gemas + 8 latamrust gemas. DAG system: total_runs=0, supports parallel execution. Token budget: 200K max per run, 500K per hour. Goal detector: 13 simple patterns, 34 complex keywords, 150 max_simple_length. Judge pipeline: 6 evaluations, max 10 iterations. Loop guard: detects infinite loops. Autopilot: cron/webhook/conditional/event triggers (0 active). Security: strict mode off, audit entries 0, 10 input patterns, 4 output patterns. Safety module. 6 director executions with 100% success rate. Recipes: actions include chat, classify, search, execute, wait, log, condition, parallel.

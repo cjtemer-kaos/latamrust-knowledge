@@ -1,0 +1,3 @@
+# sn-error-handling
+
+Error handling in aiohttp: @web.middleware async def error_middleware(request, handler): try: return await handler(request) except web.HTTPException: raise except Exception as e: return web.json_response({'error': str(e)}, status=500). Custom exceptions: class MyError(web.HTTPBadRequest): ...

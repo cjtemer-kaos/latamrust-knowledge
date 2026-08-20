@@ -1,0 +1,3 @@
+# autopsia/patrones-harness
+
+Patrones de Harness Engineering extraídos de la autopsia: (1) ECC: instalar declarativo multi-target (5 fases), 20 hooks con gates de calidad, 74 skills organizados por dominio, 5 agentes MD. (2) learn-claude-code: 4-layer compaction pipeline (budget→snip→micro→LLM), 2-level skill loading (catalog en SYSTEM + on-demand), task DAG con blockedBy. (3) OpenHarness: HookEvent/HookExecutor con 4 tipos (command/http/prompt/agent), streaming tool loop con reactive compaction, Swarm backend registry. (4) Rowboat: event bus por run, agent-as-tool pattern. (5) LLMLingua: context compaction 3 niveles.

@@ -1,0 +1,3 @@
+# Multimodal AI Patterns
+
+Vision-Language: CLIP (image+text embeddings), LLaVA (LLaVA-v1.5 with Vicuna), BLIP-2 (Q-Former bridge), GPT-4V, Claude 3 Vision. Audio: Whisper (transcription, 96 languages), AudioCraft/MusicGen (music generation), Bark (text-to-speech). Unified: Gemini (text+image+audio+video), GPT-4o (omni). Integration patterns: early fusion (concatenate modalities at input), late fusion (separate encoders, combine at decision layer), cross-attention (Q-Former bridges image encoder to LLM). RAG over images: extract text via OCR, generate captions, embed both. Vision for agents: screenshot -> caption -> LLM decides action.

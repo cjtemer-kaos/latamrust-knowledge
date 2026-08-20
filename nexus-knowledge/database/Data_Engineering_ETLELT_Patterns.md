@@ -1,0 +1,3 @@
+# Data Engineering: ETL/ELT Patterns
+
+ETL (Extract-Transform-Load): transform before loading into warehouse -- good for complex transformations, data quality enforcement. ELT (Extract-Load-Transform): load raw data, transform in warehouse (dbt, Snowflake) -- faster load, flexible transformation, cloud-native. Batch: scheduled processing of bulk data (hourly/daily), Airflow/Dagster for orchestration. Streaming (Kafka, Kinesis): real-time processing with Flink, Spark Streaming, or Kafka Streams. Lambda Architecture: batch + streaming layers, merging in serving. Kappa: streaming-only, batch as re-processing.

@@ -1,0 +1,3 @@
+# rust-zone-manager-plugin
+
+ZoneManager by k1lly0u defines custom map zones with flags. Flags: SafeZone (no PvP), NoBuild (no building), NoDecay/Undestr, NoEnter/NoLeave, NoChat, NoFly, Eject (teleport out), GodMode, PvpGod. Commands: /zone_add, /zone_id <id> radius <N> nobuild true undestr true safezone true. Config: oxide/config/ZoneManager.json. Developer API: CreateOrUpdateZone(zoneId, args, position), EraseZone(zoneId), GetPlayersInZone(zoneId), GetEntitiesInZone(zoneId). Temporary zones (auto-cleaned on plugin unload). Bulk ops: CreateOrUpdateZones, EraseZones. Integrates with TruePVE, DynamicPVP, PVP Indicator, ZoneManager Auto Zones (auto monument zones). Essential for hybrid PvE/PvP servers.

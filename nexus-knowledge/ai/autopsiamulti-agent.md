@@ -1,0 +1,3 @@
+# autopsia/multi-agent
+
+Patrones Multi-Agent extraídos de la autopsia: (1) AionUI: Dual-transport IPC bridge (unifica CLI + WebSocket), Zod-validated extension manifests, sandboxed workers, Mailbox con mensajes dirigidos entre peers, TaskManager con blockedBy/checkUnblocks, TeammateManager con wake-dedup. (2) 12-factor-agents: Deterministic DAG con micro-agents (3-10 pasos por gema), event-log-as-state, stateless reducer fn(state, event) -> state. (3) openclaw: WebSocket JSON protocol con 27 event types, FSM connection lifecycle, Ed25519 identity, 2-phase pairing, ExecApprovalPolicy con glob allow/deny/prompt. (4) Webwright: Protocol-based plugin architecture, recursive YAML config stacking, code-as-action.

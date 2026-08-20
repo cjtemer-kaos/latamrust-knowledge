@@ -1,0 +1,3 @@
+# nexus-pc2-node-nexushive
+
+SuperNEXUS PC2 node: host 192.168.1.50, port 22, user cjtr, online=false. Nexus URL: http://192.168.1.50:9000. OpenClaw URL: http://192.168.1.50:18789. PC control: screenshot dir at D:\ias\proyectos\latamrust-nexus\screenshots, PC controller with qwen2.5vl:2b for vision, MSS and pyautogui available. NexusHive: agent communication via message board. Communication agents registered: scholar, sage, biblioteca. 3 registered agents, 0 active flows. MCP servers configured: github, filesystem, sqlite, puppeteer, brave-search, chrome-devtools, playwright, agent-browser, nexus-memory-fallback, firecrawl (all currently disconnected, configured via npx/uvx commands).

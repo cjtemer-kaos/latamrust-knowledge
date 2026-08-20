@@ -1,0 +1,3 @@
+# sprint/S4-app-as-container
+
+Sprint S4 completed. App-as-Container architecture is now the standard for DirectorNexus. The director.py reduced 2370→1482 LOC (-888/-37.5%) by extracting 7 services: voice, memory, tool, agent, routing, execution. classify_task and execute() delegate to services via NexusApp registry. 70 tests green, coverage ≥ 50% per service. Baseline: docs/s4_baseline.json with 15 deterministic scenarios. DirectorNexus accepts optional `app` parameter with backward compatibility. Target ≤900 not met (1482 remaining), accepted as partial with residual cleanup deferred to future sprint.

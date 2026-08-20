@@ -1,0 +1,3 @@
+# autopsia/memoria-rag
+
+Patrones de Memoria y RAG extraídos de la autopsia: (1) Lethe: synthetic memory con 8 patrones (DMN cognition, episodic compression, contrastive recall). (2) Mem0: memory layer con perfiles de usuario, actualización dinámica. (3) Engram: engram pattern para persistencia causal. (4) AnythingLLM: chunking prefix injection, 14 embedders, 8 vector DBs. (5) Tabby: tantivy indexación full-text de código, tokenización multi-lenguaje para code search. (6) Hierarchical memory (3 tiers) ya existe en SuperNEXUS pero falta forgetting curve y tier promotion automático. (7) DCLM/Dolma: Tag-then-Mix separation, factory function pattern para modelos pesados, BaseParallelProcessor con idempotencia por shard.

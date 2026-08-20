@@ -1,0 +1,3 @@
+# Structured Output from LLMs
+
+Methods: 1) Grammar/constrained decoding (llama.cpp grammar, guidance, LMQL, Outlines) -- restrict logits to valid tokens. 2) JSON mode: prompt 'Return valid JSON' + schema in system message. 3) Function calling (OpenAI, Claude, Gemini): define functions with JSON schema, model returns structured call. 4) Tool use: registers tools/prompts, model decides which to call. 5) Instructor library: Python library for structured extraction with Pydantic models. 6) Jsonformer: guided JSON generation. Best for production: Outlines (local models) or Instructor (API models). Always validate + retry on schema violations.

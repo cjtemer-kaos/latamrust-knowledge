@@ -1,0 +1,3 @@
+# nexus-63-tools
+
+SuperNEXUS has 63 tools in 3 categories: AI TOOLS (21): qwen_coder, nemotron_chat, deepseek_reason, qwen_vision, nemotron_fast, gemma_creative, scholar_research, multimedia_design, music_generator, prompt_engineer, producer_marketing, security_audit, sage_memory, biblioteca_knowledge, trainer_education, analyst_data, debugger_troubleshoot, optimizer_performance, tester_qa, architect_design, devops_infra. LOCAL TOOLS (12): read_file, search_code, list_files, web_search, web_navigate, browser, browser_snapshot, browser_interact, mcp_call, list_mcp_tools, search_knowledge, research_scholar. 30 GEMAS as tools. Total: 63 tool capabilities for the Director to orchestrate.

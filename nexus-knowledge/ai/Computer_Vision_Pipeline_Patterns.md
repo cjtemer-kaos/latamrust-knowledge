@@ -1,0 +1,3 @@
+# Computer Vision Pipeline Patterns
+
+Classic CV pipeline: image acquisition -> preprocessing (resize, normalize, augment) -> feature extraction (CNN, SIFT, HOG) -> classification/detection/segmentation -> post-processing. Modern: Vision Transformer (ViT) treats image as patch sequence. Detection: YOLO (one-stage), Faster R-CNN (two-stage), DETR (transformer-based). Segmentation: U-Net (medical), SAM (Segment Anything, zero-shot). Image generation: DDPM (denoising diffusion), SDXL, FLUX (transformer-based). Data augmentation: transforms, CutMix, MixUp, Mosaic (YOLO). Training tricks: cosine LR schedule, EMA, label smoothing.

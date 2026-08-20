@@ -1,0 +1,3 @@
+# System Design Interview Patterns
+
+Framework: 1) Requirements (functional + non-functional: latency, availability, durability). 2) Estimation (QPS, storage, bandwidth). 3) Data model (schema, NoSQL vs SQL). 4) High-level design (components + interactions). 5) Deep dive (scale bottlenecks: DB sharding, caching, CDN, async processing). 6) Trade-offs. Common designs: URL shortener (hash + redirect), Chat system (WebSocket + pub/sub + message persistence), News feed (fanout-on-write vs fanout-on-read), Video streaming (chunking + CDN), Rate limiter (sliding window + Redis), Key-value store (consistent hashing + replication), Search engine (inverted index + ranking).

@@ -1,0 +1,3 @@
+# k8s-deployment-example
+
+Deployment: apiVersion: apps/v1; kind: Deployment; metadata: {name: web}; spec: {replicas: 3, selector: {matchLabels: {app: web}}, template: {metadata: {labels: {app: web}}, spec: {containers: [{name: web, image: nginx:latest, ports: [{containerPort: 80}]}]}}}

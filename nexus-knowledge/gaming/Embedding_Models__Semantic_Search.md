@@ -1,0 +1,3 @@
+# Embedding Models & Semantic Search
+
+Text embeddings: convert text to dense vectors capturing semantic meaning. OpenAI text-embedding-3-small (1536d, 62usd/1M tokens), text-embedding-3-large (3072d). Open source: BGE (BAAI, BEIR leaderboard), E5 (MS), Instructor (customize with instructions), GTE (Alibaba), Stella (405M param leader). Multilingual: BGE-M3, intfloat/multilingual-e5-large. Model selection: same language as your docs, dimension vs performance trade-off, MTEB benchmark. Indexing: flat (exact, brute force), IVF (inverted file, approximate), HNSW (hierarchical navigable small world, best speed/recall).

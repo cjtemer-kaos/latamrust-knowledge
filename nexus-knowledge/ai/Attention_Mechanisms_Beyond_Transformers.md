@@ -1,0 +1,3 @@
+# Attention Mechanisms Beyond Transformers
+
+Multi-Query Attention (MQA): all heads share single K,V projection (fast auto-regressive decode). Grouped Query Attention (GQA): intermediate between MHA and MQA, groups of heads share K,V (Llama 2/3 uses GQA). FlashAttention: tiling + recomputation avoids large N^2 attention matrix, 2-4x faster. Sliding Window Attention: attend only to local window (Mistral, Gemma). Sparse Attention: attend to selected positions. Linear Attention: replace softmax with kernel feature map for O(N) complexity. Mamba (State Space Model): no attention, selection mechanism, linear-time, competitive with Transformers on long context.

@@ -1,0 +1,3 @@
+# Chaos Engineering & Resilience
+
+Principles: 1) Define steady state (normal behavior metrics). 2) Hypothesize (inject fault X -> system degrades by Y). 3) Run experiment. 4) Learn + fix. Tools: Chaos Monkey (terminate instances), Litmus (K8s chaos), Gremlin (SaaS), Chaos Mesh (K8s fault injection). Types: resource exhaustion (CPU, memory, disk), network failures (latency, partition, packet loss), process kills, DNS failures, certificate expiry. Maturity model: ad-hoc -> automated (CI pipeline) -> continuously (production with blast radius controls). Blast radius: always start in staging/dev, use experiments without customer impact, always have kill switch.

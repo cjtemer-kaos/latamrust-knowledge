@@ -1,0 +1,3950 @@
+{
+  "entries": [
+    {
+      "title": "url:https://example.com",
+      "category": "Web",
+      "tags": [
+        "auto-ingested",
+        "web",
+        "ingested"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\web\\url_https___example.com.md",
+      "created": "2026-06-11T22:42:49.794714"
+    },
+    {
+      "title": "url:https://github.com/microsoft/ai-agents-for-beginners/blob/main/translations/es/01-intro-to-ai-agents/README.md",
+      "category": "Web",
+      "tags": [
+        "auto-ingested",
+        "web",
+        "ingested"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\web\\url_https___github.com_microsoft_ai-agents-for-beg.md",
+      "created": "2026-06-11T22:42:49.858089"
+    },
+    {
+      "title": "url:https://github.com/midudev/curso-python",
+      "category": "Web",
+      "tags": [
+        "auto-ingested",
+        "web",
+        "ingested"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\web\\url_https___github.com_midudev_curso-python.md",
+      "created": "2026-06-11T22:42:49.930402"
+    },
+    {
+      "title": "url:https://kotlinlang.org",
+      "category": "Web",
+      "tags": [
+        "auto-ingested",
+        "web",
+        "ingested"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\web\\url_https___kotlinlang.org.md",
+      "created": "2026-06-11T22:42:51.226934"
+    },
+    {
+      "title": "url:https://www.salesforce.com/es/agentforce/ai-agent-course/",
+      "category": "Web",
+      "tags": [
+        "auto-ingested",
+        "web",
+        "ingested"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\web\\url_https___www.salesforce.com_es_agentforce_ai-ag.md",
+      "created": "2026-06-11T22:42:52.338661"
+    },
+    {
+      "title": "Learned: frontend project best practices 2026 responsive design dark mode scroll animatio",
+      "category": "Learned",
+      "tags": [
+        "auto-learned",
+        "frontend project best practice"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\learned__frontend_project_best_practices_2026_resp.md",
+      "created": "2026-06-14T11:48:47.052169"
+    },
+    {
+      "title": "Learned: frontend project best practices 2026 responsive design dark mode scroll animatio",
+      "category": "Learned",
+      "tags": [
+        "auto-learned",
+        "frontend project best practice"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\learned__frontend_project_best_practices_2026_resp.md",
+      "created": "2026-06-14T11:49:22.390007"
+    },
+    {
+      "title": "Direct: frontend-design-best-practices-2026",
+      "category": "Learned",
+      "tags": [
+        "frontend",
+        "design",
+        "gaming"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__frontend-design-best-practices-2026.md",
+      "created": "2026-06-14T11:54:07.493948"
+    },
+    {
+      "title": "Direct: frontend-design-best-practices-2026",
+      "category": "Learned",
+      "tags": [
+        "frontend",
+        "design",
+        "responsive",
+        "dark-mode",
+        "gaming",
+        "website",
+        "rust-server"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__frontend-design-best-practices-2026.md",
+      "created": "2026-06-14T11:56:31.581577"
+    },
+    {
+      "title": "Direct: test",
+      "category": "Learned",
+      "tags": [
+        "test"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__test.md",
+      "created": "2026-06-14T11:57:08.927618"
+    },
+    {
+      "title": "Direct: frontend-design-2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "design",
+        "2026",
+        "react",
+        "nextjs"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__frontend-design-2026.md",
+      "created": "2026-06-14T12:01:05.970647"
+    },
+    {
+      "title": "Learned: frontend design best practices 2026 react nextjs dark mode responsive",
+      "category": "Learned",
+      "tags": [
+        "auto-learned",
+        "frontend design best practices"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\learned__frontend_design_best_practices_2026_react.md",
+      "created": "2026-06-14T12:02:18.675463"
+    },
+    {
+      "title": "Frontend Design 2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "design",
+        "2026"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\frontend_design_2026.md",
+      "created": "2026-06-14T12:02:28.799962"
+    },
+    {
+      "title": "Direct: react19-server-components",
+      "category": "Frontend",
+      "tags": [
+        "react",
+        "server-components",
+        "frontend"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-server-components.md",
+      "created": "2026-06-14T12:10:02.440926"
+    },
+    {
+      "title": "Direct: react19-server-components",
+      "category": "Frontend",
+      "tags": [
+        "react",
+        "server-components"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-server-components.md",
+      "created": "2026-06-14T12:11:50.774295"
+    },
+    {
+      "title": "Direct: test",
+      "category": "Test",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\test\\direct__test.md",
+      "created": "2026-06-14T12:12:22.191221"
+    },
+    {
+      "title": "Direct: react19-final",
+      "category": "Frontend",
+      "tags": [
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-final.md",
+      "created": "2026-06-14T12:13:56.079834"
+    },
+    {
+      "title": "Direct: react19-debug",
+      "category": "Frontend",
+      "tags": [
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-debug.md",
+      "created": "2026-06-14T12:15:14.526217"
+    },
+    {
+      "title": "Direct: t",
+      "category": "C",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\c\\direct__t.md",
+      "created": "2026-06-14T12:16:40.251015"
+    },
+    {
+      "title": "Direct: test",
+      "category": "Test",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\test\\direct__test.md",
+      "created": "2026-06-14T12:17:23.227908"
+    },
+    {
+      "title": "Direct: react19-final",
+      "category": "Frontend",
+      "tags": [
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-final.md",
+      "created": "2026-06-14T12:20:16.301779"
+    },
+    {
+      "title": "Direct: react19-patterns",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react19-patterns.md",
+      "created": "2026-06-14T12:20:42.599893"
+    },
+    {
+      "title": "Direct: nextjs-app-router",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "nextjs"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__nextjs-app-router.md",
+      "created": "2026-06-14T12:20:43.896386"
+    },
+    {
+      "title": "Direct: design-tokens",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "design-systems"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__design-tokens.md",
+      "created": "2026-06-14T12:20:45.256680"
+    },
+    {
+      "title": "Direct: framer-motion",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "animations"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__framer-motion.md",
+      "created": "2026-06-14T12:20:46.728622"
+    },
+    {
+      "title": "Direct: dark-mode",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "ui"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__dark-mode.md",
+      "created": "2026-06-14T12:20:48.077071"
+    },
+    {
+      "title": "Direct: responsive-2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "css"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__responsive-2026.md",
+      "created": "2026-06-14T12:20:49.458927"
+    },
+    {
+      "title": "Direct: react-performance",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__react-performance.md",
+      "created": "2026-06-14T12:20:50.876292"
+    },
+    {
+      "title": "Direct: web-vitals",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "performance"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__web-vitals.md",
+      "created": "2026-06-14T12:20:52.628181"
+    },
+    {
+      "title": "Direct: tailwind-2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "css"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__tailwind-2026.md",
+      "created": "2026-06-14T12:20:54.079314"
+    },
+    {
+      "title": "Direct: typescript-react",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "typescript"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__typescript-react.md",
+      "created": "2026-06-14T12:20:55.558282"
+    },
+    {
+      "title": "Direct: atomic-design",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "architecture"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__atomic-design.md",
+      "created": "2026-06-14T12:21:11.859554"
+    },
+    {
+      "title": "Direct: state-management-2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "state"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__state-management-2026.md",
+      "created": "2026-06-14T12:21:13.344295"
+    },
+    {
+      "title": "Direct: accessibility-aria",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "a11y"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__accessibility-aria.md",
+      "created": "2026-06-14T12:21:14.886694"
+    },
+    {
+      "title": "Direct: css-grid-advanced",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "css"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__css-grid-advanced.md",
+      "created": "2026-06-14T12:21:16.504081"
+    },
+    {
+      "title": "Direct: micro-interactions",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "ux"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__micro-interactions.md",
+      "created": "2026-06-14T12:21:18.044570"
+    },
+    {
+      "title": "Direct: ssr-streaming",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "react"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__ssr-streaming.md",
+      "created": "2026-06-14T12:21:19.673993"
+    },
+    {
+      "title": "Direct: graphql-react",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "data"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__graphql-react.md",
+      "created": "2026-06-14T12:21:21.428114"
+    },
+    {
+      "title": "Direct: testing-react",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "testing"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__testing-react.md",
+      "created": "2026-06-14T12:21:23.112013"
+    },
+    {
+      "title": "Direct: scroll-animations",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "css"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__scroll-animations.md",
+      "created": "2026-06-14T12:21:24.790395"
+    },
+    {
+      "title": "Direct: pwa-2026",
+      "category": "Frontend",
+      "tags": [
+        "frontend",
+        "web"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\frontend\\direct__pwa-2026.md",
+      "created": "2026-06-14T12:21:26.574234"
+    },
+    {
+      "title": "Direct: rust-rcon",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-rcon.md",
+      "created": "2026-06-14T12:39:05.929526"
+    },
+    {
+      "title": "Direct: rust-server-design",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-server-design.md",
+      "created": "2026-06-14T12:39:07.054089"
+    },
+    {
+      "title": "Direct: discord-bot",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "integration"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__discord-bot.md",
+      "created": "2026-06-14T12:39:08.229004"
+    },
+    {
+      "title": "Direct: dashboard-design",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "ui"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__dashboard-design.md",
+      "created": "2026-06-14T12:39:09.409371"
+    },
+    {
+      "title": "Direct: tebex-integration",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__tebex-integration.md",
+      "created": "2026-06-14T12:39:10.602272"
+    },
+    {
+      "title": "Direct: rust-admin",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-admin.md",
+      "created": "2026-06-14T12:39:11.818077"
+    },
+    {
+      "title": "Direct: rust-performance",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-performance.md",
+      "created": "2026-06-14T12:39:13.055650"
+    },
+    {
+      "title": "Direct: rust-wipes",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-wipes.md",
+      "created": "2026-06-14T12:39:14.316984"
+    },
+    {
+      "title": "Direct: rust-maps",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-maps.md",
+      "created": "2026-06-14T12:39:15.600930"
+    },
+    {
+      "title": "Direct: rust-economy",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-economy.md",
+      "created": "2026-06-14T12:39:16.905427"
+    },
+    {
+      "title": "Direct: rust-networking",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-networking.md",
+      "created": "2026-06-14T12:39:32.401308"
+    },
+    {
+      "title": "Direct: rust-modding",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-modding.md",
+      "created": "2026-06-14T12:39:33.774884"
+    },
+    {
+      "title": "Direct: rust-events",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-events.md",
+      "created": "2026-06-14T12:39:35.159440"
+    },
+    {
+      "title": "Direct: rust-crafting",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-crafting.md",
+      "created": "2026-06-14T12:39:36.565573"
+    },
+    {
+      "title": "Direct: rust-building",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-building.md",
+      "created": "2026-06-14T12:39:38.005213"
+    },
+    {
+      "title": "Direct: rust-combat",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-combat.md",
+      "created": "2026-06-14T12:39:39.463193"
+    },
+    {
+      "title": "Direct: rust-steam",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "rust"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__rust-steam.md",
+      "created": "2026-06-14T12:39:41.018752"
+    },
+    {
+      "title": "Direct: linux-hosting",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "devops"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__linux-hosting.md",
+      "created": "2026-06-14T12:39:42.526310"
+    },
+    {
+      "title": "Direct: windows-hosting",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "devops"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__windows-hosting.md",
+      "created": "2026-06-14T12:39:44.065120"
+    },
+    {
+      "title": "Direct: content-creator",
+      "category": "Rust",
+      "tags": [
+        "rust",
+        "tools"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\rust\\direct__content-creator.md",
+      "created": "2026-06-14T12:39:45.657655"
+    },
+    {
+      "title": "Direct: hc4-missions",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "hc4"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__hc4-missions.md",
+      "created": "2026-06-14T12:40:03.373651"
+    },
+    {
+      "title": "Direct: hc4-blueprints",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "hc4"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__hc4-blueprints.md",
+      "created": "2026-06-14T12:40:04.508104"
+    },
+    {
+      "title": "Direct: hc4-store",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "hc4"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__hc4-store.md",
+      "created": "2026-06-14T12:40:05.706874"
+    },
+    {
+      "title": "Direct: hc4-community",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "hc4"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__hc4-community.md",
+      "created": "2026-06-14T12:40:06.934811"
+    },
+    {
+      "title": "Direct: latam-argentina",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "latam"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__latam-argentina.md",
+      "created": "2026-06-14T12:40:08.164582"
+    },
+    {
+      "title": "Direct: latam-miami",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "latam"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__latam-miami.md",
+      "created": "2026-06-14T12:40:09.439315"
+    },
+    {
+      "title": "Direct: latam-pve-pvp",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "latam"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__latam-pve-pvp.md",
+      "created": "2026-06-14T12:40:10.709641"
+    },
+    {
+      "title": "Direct: wordpress-gaming",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "web"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__wordpress-gaming.md",
+      "created": "2026-06-14T12:40:12.014011"
+    },
+    {
+      "title": "Direct: seo-gaming",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "web"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__seo-gaming.md",
+      "created": "2026-06-14T12:40:13.509877"
+    },
+    {
+      "title": "Direct: analytics-gaming",
+      "category": "Gaming",
+      "tags": [
+        "gaming",
+        "data"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\gaming\\direct__analytics-gaming.md",
+      "created": "2026-06-14T12:40:15.032015"
+    },
+    {
+      "title": "Direct: test",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__test.md",
+      "created": "2026-07-30T13:19:00.408659"
+    },
+    {
+      "title": "Direct: Server en D:/SERVIDOR/servers/LATAMRUST COBBLEMON/. Fabric 1.21.1. Puerto 55555.",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__server_en_d__servidor_servers_latamrust_co.md",
+      "created": "2026-07-30T13:19:31.199457"
+    },
+    {
+      "title": "Direct: mega_showdown, tmcraft, zamega, particular, jei, jeed deshabilitados. Causaban c",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__mega_showdown,_tmcraft,_zamega,_particular.md",
+      "created": "2026-07-30T13:19:33.580136"
+    },
+    {
+      "title": "Direct: Pendientes: kits, chunks, trade, schematics spawn",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__pendientes__kits,_chunks,_trade,_schematic.md",
+      "created": "2026-07-30T13:19:35.999733"
+    },
+    {
+      "title": "Direct: Esta es una prueba de que la memoria de Nexus funciona correctamente. Si ves est",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__esta_es_una_prueba_de_que_la_memoria_de_ne.md",
+      "created": "2026-07-30T13:25:34.280807"
+    },
+    {
+      "title": "Direct: Investigacion de mods admin/staff para Fabric 1.21.1:\n1) AdminScope-mod - /spect",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__investigacion_de_mods_admin_staff_para_fab.md",
+      "created": "2026-07-30T13:31:21.642376"
+    },
+    {
+      "title": "Direct: Sistema Auth para servidor cracked (auth-v1.5.1.jar). Login con contrase\u00f1a. Anti",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__sistema_auth_para_servidor_cracked_(auth-v.md",
+      "created": "2026-07-30T14:51:17.486749"
+    },
+    {
+      "title": "Direct: ping",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__ping.md",
+      "created": "2026-07-31T12:05:16.991043"
+    },
+    {
+      "title": "Direct: CRON 2026-07-31 12:05 (UTC-3): Estado sincronizado. Minecraft LATAMRUST COBBLEMO",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__cron_2026-07-31_12_05_(utc-3)__estado_sinc.md",
+      "created": "2026-07-31T12:07:40.984306"
+    },
+    {
+      "title": "Direct: servidor_minecraft_latamrust",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__servidor_minecraft_latamrust.md",
+      "created": "2026-07-31T12:57:26.607464"
+    },
+    {
+      "title": "Direct: rcon_credenciales",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__rcon_credenciales.md",
+      "created": "2026-07-31T12:57:59.017580"
+    },
+    {
+      "title": "Direct: comandos_minecraft_nexus",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__comandos_minecraft_nexus.md",
+      "created": "2026-07-31T12:58:01.314714"
+    },
+    {
+      "title": "Direct: mods_latamrust",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__mods_latamrust.md",
+      "created": "2026-07-31T12:58:03.620772"
+    },
+    {
+      "title": "Direct: servidor_produccion_cloud",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__servidor_produccion_cloud.md",
+      "created": "2026-07-31T12:58:05.934463"
+    },
+    {
+      "title": "Direct: mcss_github",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__mcss_github.md",
+      "created": "2026-07-31T12:58:08.294391"
+    },
+    {
+      "title": "Direct: Estado sincronizado por cron el 2026-07-31 13:08 (hora local). Cerebro LatamRust",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__estado_sincronizado_por_cron_el_2026-07-31.md",
+      "created": "2026-07-31T13:18:52.773185"
+    },
+    {
+      "title": "Direct: cron connectivity test",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__cron_connectivity_test.md",
+      "created": "2026-08-04T08:19:34.530451"
+    },
+    {
+      "title": "Direct: Estado sincronizado por cron 2026-08-04 (08:19 hora local): (1) Servidor Minecra",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__estado_sincronizado_por_cron_2026-08-04_(0.md",
+      "created": "2026-08-04T08:19:55.289673"
+    },
+    {
+      "title": "Direct: control_remoto_mcss_panel",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__control_remoto_mcss_panel.md",
+      "created": "2026-08-15T19:42:01.688319"
+    },
+    {
+      "title": "Direct: comandos_spawn_cobblemon",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__comandos_spawn_cobblemon.md",
+      "created": "2026-08-15T19:42:29.416877"
+    },
+    {
+      "title": "Direct: trainer_prestige_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__trainer_prestige_config.md",
+      "created": "2026-08-15T19:42:45.664748"
+    },
+    {
+      "title": "Direct: traduccion_trainer_prestige",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__traduccion_trainer_prestige.md",
+      "created": "2026-08-15T19:43:03.170901"
+    },
+    {
+      "title": "Direct: staffpanel_paradigm",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__staffpanel_paradigm.md",
+      "created": "2026-08-15T19:44:30.596101"
+    },
+    {
+      "title": "Direct: configuracion_lag_server",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__configuracion_lag_server.md",
+      "created": "2026-08-15T19:44:47.716104"
+    },
+    {
+      "title": "Direct: paradigm_boot_fix",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__paradigm_boot_fix.md",
+      "created": "2026-08-15T19:45:05.716608"
+    },
+    {
+      "title": "Direct: snurbo_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__snurbo_config.md",
+      "created": "2026-08-15T19:45:24.564300"
+    },
+    {
+      "title": "Direct: redes_maquinas",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__redes_maquinas.md",
+      "created": "2026-08-15T19:45:43.608011"
+    },
+    {
+      "title": "Direct: streamer_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__streamer_config.md",
+      "created": "2026-08-15T19:46:04.352333"
+    },
+    {
+      "title": "Direct: claimblocks_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__claimblocks_config.md",
+      "created": "2026-08-15T19:46:25.337378"
+    },
+    {
+      "title": "Direct: staffpanel_paradigm",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__staffpanel_paradigm.md",
+      "created": "2026-08-15T19:48:32.685409"
+    },
+    {
+      "title": "Direct: configuracion_lag_server",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__configuracion_lag_server.md",
+      "created": "2026-08-15T19:48:38.517445"
+    },
+    {
+      "title": "Direct: paradigm_boot_fix",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__paradigm_boot_fix.md",
+      "created": "2026-08-15T19:48:43.601126"
+    },
+    {
+      "title": "Direct: snurbo_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__snurbo_config.md",
+      "created": "2026-08-15T19:48:47.933963"
+    },
+    {
+      "title": "Direct: redes_maquinas",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__redes_maquinas.md",
+      "created": "2026-08-15T19:48:52.075653"
+    },
+    {
+      "title": "Direct: streamer_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__streamer_config.md",
+      "created": "2026-08-15T19:48:55.758179"
+    },
+    {
+      "title": "Direct: claimblocks_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__claimblocks_config.md",
+      "created": "2026-08-15T19:48:58.800176"
+    },
+    {
+      "title": "Direct: zen_free_modelos",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__zen_free_modelos.md",
+      "created": "2026-08-15T19:49:11.998111"
+    },
+    {
+      "title": "Direct: launcher_v5",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__launcher_v5.md",
+      "created": "2026-08-15T19:49:34.403508"
+    },
+    {
+      "title": "Direct: trainer_prestige_resumen",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__trainer_prestige_resumen.md",
+      "created": "2026-08-15T19:49:58.239488"
+    },
+    {
+      "title": "Direct: reglas_usuario_server",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__reglas_usuario_server.md",
+      "created": "2026-08-15T19:50:23.782464"
+    },
+    {
+      "title": "Direct: reglas_usuario_server",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__reglas_usuario_server.md",
+      "created": "2026-08-15T19:50:52.620344"
+    },
+    {
+      "title": "Direct: jerarquia_permisos",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__jerarquia_permisos.md",
+      "created": "2026-08-15T19:51:08.027724"
+    },
+    {
+      "title": "Direct: euphoria_prohibido",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__euphoria_prohibido.md",
+      "created": "2026-08-15T19:51:34.990202"
+    },
+    {
+      "title": "Direct: metodo_trabajo_usuario",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__metodo_trabajo_usuario.md",
+      "created": "2026-08-15T19:52:01.633445"
+    },
+    {
+      "title": "Direct: mod_fight_or_flight",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__mod_fight_or_flight.md",
+      "created": "2026-08-15T19:55:30.482662"
+    },
+    {
+      "title": "Direct: regla_memoria_nexus",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__regla_memoria_nexus.md",
+      "created": "2026-08-15T19:55:55.966136"
+    },
+    {
+      "title": "Direct: fix_fightorflight_config",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__fix_fightorflight_config.md",
+      "created": "2026-08-15T20:03:23.671005"
+    },
+    {
+      "title": "Direct: fix_launcher_skins_updates",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__fix_launcher_skins_updates.md",
+      "created": "2026-08-15T21:14:44.894961"
+    },
+    {
+      "title": "Direct: launchers_v5_github_fix_entregado",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__launchers_v5_github_fix_entregado.md",
+      "created": "2026-08-15T22:16:04.011023"
+    },
+    {
+      "title": "Direct: launchers_v5_github_fix_entregado",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__launchers_v5_github_fix_entregado.md",
+      "created": "2026-08-15T22:16:57.466248"
+    },
+    {
+      "title": "Direct: prime_agent_analisis",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__prime_agent_analisis.md",
+      "created": "2026-08-16T09:18:53.111897"
+    },
+    {
+      "title": "Direct: supernexus_v2_funcional_9000",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__supernexus_v2_funcional_9000.md",
+      "created": "2026-08-16T10:39:11.186360"
+    },
+    {
+      "title": "Direct: fix_ui_electron_supernexus",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__fix_ui_electron_supernexus.md",
+      "created": "2026-08-16T10:51:23.577304"
+    },
+    {
+      "title": "Direct: supernexus_v2_portable_funcional",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__supernexus_v2_portable_funcional.md",
+      "created": "2026-08-16T11:04:04.163493"
+    },
+    {
+      "title": "Direct: supernexus_v2_cableado_completo",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__supernexus_v2_cableado_completo.md",
+      "created": "2026-08-16T11:29:03.274029"
+    },
+    {
+      "title": "Direct: biblioteca_agentes_pc1_aprendida",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__biblioteca_agentes_pc1_aprendida.md",
+      "created": "2026-08-16T11:43:12.860681"
+    },
+    {
+      "title": "Direct: estudio_asistentes_ide_ia_completo",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__estudio_asistentes_ide_ia_completo.md",
+      "created": "2026-08-16T11:47:50.746179"
+    },
+    {
+      "title": "Direct: supernexus_estudio_profundo_2026",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__supernexus_estudio_profundo_2026.md",
+      "created": "2026-08-16T12:35:17.568927"
+    },
+    {
+      "title": "Direct: supernexus_v6_funcional_local",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__supernexus_v6_funcional_local.md",
+      "created": "2026-08-16T13:21:57.241786"
+    },
+    {
+      "title": "Direct: diagnostico_ui_supernexus_placebos",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__diagnostico_ui_supernexus_placebos.md",
+      "created": "2026-08-16T13:39:00.345401"
+    },
+    {
+      "title": "Direct: sistemas_huerfanos_conectados",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__sistemas_huerfanos_conectados.md",
+      "created": "2026-08-16T13:50:23.129373"
+    },
+    {
+      "title": "Direct: sistemas_huerfanos_conectados",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__sistemas_huerfanos_conectados.md",
+      "created": "2026-08-16T13:51:23.483684"
+    },
+    {
+      "title": "Direct: cableado_agentes_externos_skills",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__cableado_agentes_externos_skills.md",
+      "created": "2026-08-16T14:08:12.194153"
+    },
+    {
+      "title": "Direct: ui_selector_modelos_corregido",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__ui_selector_modelos_corregido.md",
+      "created": "2026-08-16T15:30:12.978554"
+    },
+    {
+      "title": "Direct: ui_selector_modelos_corregido",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__ui_selector_modelos_corregido.md",
+      "created": "2026-08-16T15:31:19.356493"
+    },
+    {
+      "title": "Direct: unificacion_conocimiento_y_capacidades_llm",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__unificacion_conocimiento_y_capacidades_llm.md",
+      "created": "2026-08-16T18:03:46.242429"
+    },
+    {
+      "title": "Direct: probe",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__probe.md",
+      "created": "2026-08-16T18:06:10.362690"
+    },
+    {
+      "title": "Direct: staffpanel",
+      "category": "Learned",
+      "tags": [
+        "staff-panel",
+        "latamrust",
+        "fabric-mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__staffpanel.md",
+      "created": "2026-08-17T23:15:35.382949"
+    },
+    {
+      "title": "Direct: shops",
+      "category": "Learned",
+      "tags": [
+        "shops-panel",
+        "cobbledollars",
+        "fabric-mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__shops.md",
+      "created": "2026-08-17T23:15:55.168567"
+    },
+    {
+      "title": "Direct: paradigm_restart",
+      "category": "Learned",
+      "tags": [
+        "paradigm",
+        "restart",
+        "autorestart"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__paradigm_restart.md",
+      "created": "2026-08-17T23:16:16.749476"
+    },
+    {
+      "title": "Direct: mcss",
+      "category": "Learned",
+      "tags": [
+        "mcss",
+        "server-manager"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__mcss.md",
+      "created": "2026-08-17T23:16:39.479441"
+    },
+    {
+      "title": "Direct: ping verificacion",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__ping_verificacion.md",
+      "created": "2026-08-17T23:17:18.900698"
+    },
+    {
+      "title": "Direct: x",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__x.md",
+      "created": "2026-08-18T09:56:10.907821"
+    },
+    {
+      "title": "Direct: port_v6_latamrust",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "v6",
+        "port",
+        "llm-flow"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__port_v6_latamrust.md",
+      "created": "2026-08-18T11:31:16.649630"
+    },
+    {
+      "title": "Direct: latamrust_cableado_estado",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "conectividad",
+        "aprendizaje"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__latamrust_cableado_estado.md",
+      "created": "2026-08-18T11:31:43.287690"
+    },
+    {
+      "title": "Direct: latamrust_cableado_estado",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "conectividad",
+        "aprendizaje"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__latamrust_cableado_estado.md",
+      "created": "2026-08-18T11:32:15.843638"
+    },
+    {
+      "title": "Direct: cableado_aprendizaje_latamrust",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "cableado",
+        "aprendizaje"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__cableado_aprendizaje_latamrust.md",
+      "created": "2026-08-18T11:49:56.721004"
+    },
+    {
+      "title": "Direct: politica_local_primero_latamrust",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "local-primero",
+        "politica-llm"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__politica_local_primero_latamrust.md",
+      "created": "2026-08-18T11:50:21.959087"
+    },
+    {
+      "title": "Direct: consolidacion_grafo_latamrust",
+      "category": "Learned",
+      "tags": [
+        "latamrust-nexus",
+        "consolidacion",
+        "knowledge-graph"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__consolidacion_grafo_latamrust.md",
+      "created": "2026-08-18T11:50:46.614858"
+    },
+    {
+      "title": "Direct: Proteccion YAWP regiones LATAMRUST",
+      "category": "Server",
+      "tags": [
+        "yawp",
+        "proteccion",
+        "latamrust",
+        "regiones",
+        "owners"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__proteccion_yawp_regiones_latamrust.md",
+      "created": "2026-08-19T11:17:40.350110"
+    },
+    {
+      "title": "Direct: OpenCode free proxy colmena PC2",
+      "category": "Infra",
+      "tags": [
+        "opencode",
+        "free",
+        "proxy",
+        "colmena",
+        "latamrust-nexus",
+        "redis"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__opencode_free_proxy_colmena_pc2.md",
+      "created": "2026-08-19T11:40:17.596040"
+    },
+    {
+      "title": "Direct: Catalogo modelos free OpenCode Zen",
+      "category": "Infra",
+      "tags": [
+        "opencode",
+        "free",
+        "modelos",
+        "proxy",
+        "zen"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__catalogo_modelos_free_opencode_zen.md",
+      "created": "2026-08-19T11:43:29.818138"
+    },
+    {
+      "title": "Direct: Regla memoria infinita NEXUS",
+      "category": "Sistema",
+      "tags": [
+        "memoria",
+        "nexus",
+        "regla",
+        "grafo",
+        "infinito"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\sistema\\direct__regla_memoria_infinita_nexus.md",
+      "created": "2026-08-19T11:44:21.969742"
+    },
+    {
+      "title": "Direct: Absorcion conocimiento PC1 SuperNEXUS",
+      "category": "Integracion",
+      "tags": [
+        "pc1",
+        "supernexus",
+        "opencode",
+        "gemas",
+        "brain",
+        "colmena"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__absorcion_conocimiento_pc1_supernexus.md",
+      "created": "2026-08-19T11:56:31.819672"
+    },
+    {
+      "title": "Direct: Audio Veyra leccion PC1",
+      "category": "Audio",
+      "tags": [
+        "veyra",
+        "audio",
+        "cable",
+        "voicemeeter"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\audio\\direct__audio_veyra_leccion_pc1.md",
+      "created": "2026-08-19T11:56:34.536600"
+    },
+    {
+      "title": "Direct: Launchers v5 PC1",
+      "category": "Launcher",
+      "tags": [
+        "launcher",
+        "v5",
+        "srjenko",
+        "nsis"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\launcher\\direct__launchers_v5_pc1.md",
+      "created": "2026-08-19T11:56:35.577683"
+    },
+    {
+      "title": "Direct: fusion-hermes-nexus",
+      "category": "Sistema",
+      "tags": [
+        "hermes",
+        "nexus",
+        "fusion",
+        "memoria"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\sistema\\direct__fusion-hermes-nexus.md",
+      "created": "2026-08-19T12:07:02.240030"
+    },
+    {
+      "title": "Direct: prueba-fusion-hermes-nexus",
+      "category": "Sistema",
+      "tags": [
+        "hermes",
+        "nexus",
+        "fusion",
+        "prueba"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\sistema\\direct__prueba-fusion-hermes-nexus.md",
+      "created": "2026-08-19T12:09:03.377321"
+    },
+    {
+      "title": "Direct: MCP OpenCode funcionando",
+      "category": "Infra",
+      "tags": [
+        "mcp",
+        "opencode",
+        "playwright",
+        "chrome-devtools",
+        "nexus-sovereign"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__mcp_opencode_funcionando.md",
+      "created": "2026-08-19T12:54:35.351961"
+    },
+    {
+      "title": "Direct: OpenCode config NEXUS unificado",
+      "category": "Infra",
+      "tags": [
+        "opencode",
+        "nexus",
+        "mcp",
+        "colmena",
+        "agenda"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__opencode_config_nexus_unificado.md",
+      "created": "2026-08-19T13:01:34.680883"
+    },
+    {
+      "title": "Direct: OpenCode todos los MCP PC2",
+      "category": "Infra",
+      "tags": [
+        "opencode",
+        "mcp",
+        "playwright",
+        "context7",
+        "agent-browser",
+        "github"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__opencode_todos_los_mcp_pc2.md",
+      "created": "2026-08-19T13:20:53.723727"
+    },
+    {
+      "title": "Direct: Desarme OpenChamber mejoras NEXUS",
+      "category": "Integracion",
+      "tags": [
+        "openchamber",
+        "opencode",
+        "mejoras",
+        "session-goals",
+        "fusion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__desarme_openchamber_mejoras_nexus.md",
+      "created": "2026-08-19T14:16:47.382954"
+    },
+    {
+      "title": "Direct: Fusion OpenChamber en latamrust-nexus",
+      "category": "Infra",
+      "tags": [
+        "session-goals",
+        "director",
+        "skill",
+        "integracion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__fusion_openchamber_en_latamrust-nexus.md",
+      "created": "2026-08-19T14:16:53.408312"
+    },
+    {
+      "title": "Direct: Sistema backup Minecraft NEXUS",
+      "category": "Server",
+      "tags": [
+        "backup",
+        "minecraft",
+        "mc_backup_service",
+        "retencion",
+        "hardlink"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__sistema_backup_minecraft_nexus.md",
+      "created": "2026-08-19T14:34:11.955815"
+    },
+    {
+      "title": "Direct: FIX director imports latamrust",
+      "category": "Infra",
+      "tags": [
+        "director",
+        "imports",
+        "fix",
+        "rust",
+        "servidores"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\infra\\direct__fix_director_imports_latamrust.md",
+      "created": "2026-08-19T14:57:41.586621"
+    },
+    {
+      "title": "Direct: Sleep 50% jugadores LATAMRUST",
+      "category": "Server",
+      "tags": [
+        "sleep",
+        "gamerule",
+        "playersSleepingPercentage",
+        "server-sleep",
+        "50porciento"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__sleep_50%_jugadores_latamrust.md",
+      "created": "2026-08-19T16:45:47.904155"
+    },
+    {
+      "title": "Direct: PLAN mini-mod FTB teams nametag",
+      "category": "Integracion",
+      "tags": [
+        "ftb-teams",
+        "scoreboard",
+        "nametag",
+        "mini-mod",
+        "conflictos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__plan_mini-mod_ftb_teams_nametag.md",
+      "created": "2026-08-19T19:43:58.296236"
+    },
+    {
+      "title": "Direct: MOD FTB Teams Nametag desarrollado",
+      "category": "Integracion",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "scoreboard",
+        "fabric",
+        "mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__mod_ftb_teams_nametag_desarrollado.md",
+      "created": "2026-08-19T20:23:44.681549"
+    },
+    {
+      "title": "Direct: Instalar FTB Teams Nametag",
+      "category": "Server",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "instalacion",
+        "jar"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalar_ftb_teams_nametag.md",
+      "created": "2026-08-19T20:23:51.490324"
+    },
+    {
+      "title": "Direct: FTB Teams Nametag instalado",
+      "category": "Server",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "instalado",
+        "jar"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__ftb_teams_nametag_instalado.md",
+      "created": "2026-08-19T20:25:06.363926"
+    },
+    {
+      "title": "Direct: FTB Teams Nametag reload + doc oficial",
+      "category": "Integracion",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "reload",
+        "jar",
+        "doc-oficial"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__ftb_teams_nametag_reload_+_doc_oficial.md",
+      "created": "2026-08-19T20:53:37.507525"
+    },
+    {
+      "title": "Direct: FTB Nametag jar nuevo copiado",
+      "category": "Server",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "jar",
+        "instalado"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__ftb_nametag_jar_nuevo_copiado.md",
+      "created": "2026-08-19T21:27:51.346694"
+    },
+    {
+      "title": "Direct: FTB Nametag v2 datapack config",
+      "category": "Integracion",
+      "tags": [
+        "ftb-teams",
+        "nametag",
+        "datapack",
+        "config",
+        "reload"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\integracion\\direct__ftb_nametag_v2_datapack_config.md",
+      "created": "2026-08-19T22:17:39.680760"
+    },
+    {
+      "title": "Direct: FIX NaoriDZN_ void playerdata",
+      "category": "Server",
+      "tags": [
+        "fix",
+        "void",
+        "playerdata",
+        "nbtlib",
+        "respawn"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__fix_naoridzn__void_playerdata.md",
+      "created": "2026-08-19T23:36:52.644443"
+    },
+    {
+      "title": "Direct: No Hunger datapack borrado",
+      "category": "Server",
+      "tags": [
+        "nohunger",
+        "datapack",
+        "borrado",
+        "hambre"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__no_hunger_datapack_borrado.md",
+      "created": "2026-08-20T00:00:16.359519"
+    },
+    {
+      "title": "Direct: No Hunger quitado del pack Drive",
+      "category": "Server",
+      "tags": [
+        "nohunger",
+        "drive",
+        "pack",
+        "modpack",
+        "github"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__no_hunger_quitado_del_pack_drive.md",
+      "created": "2026-08-20T01:07:58.367724"
+    },
+    {
+      "title": "Direct: Proceso repetible fix NaoriDZN_ bucle",
+      "category": "Server",
+      "tags": [
+        "fix",
+        "naori",
+        "bucle",
+        "spawn",
+        "repetible"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__proceso_repetible_fix_naoridzn__bucle.md",
+      "created": "2026-08-20T01:18:30.031300"
+    },
+    {
+      "title": "Direct: FIX definitivo NaoriDZN_ spawn seguro",
+      "category": "Server",
+      "tags": [
+        "fix",
+        "naori",
+        "spawn",
+        "loop",
+        "definitivo"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__fix_definitivo_naoridzn__spawn_seguro.md",
+      "created": "2026-08-20T01:28:31.414863"
+    },
+    {
+      "title": "Direct: No Hunger quitado GitHub pack",
+      "category": "Server",
+      "tags": [
+        "nohunger",
+        "github",
+        "release",
+        "pack",
+        "modpack"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__no_hunger_quitado_github_pack.md",
+      "created": "2026-08-20T02:48:50.714991"
+    },
+    {
+      "title": "Direct: Aprendizaje mods nametag y plan v3",
+      "category": "Server",
+      "tags": [
+        "mod",
+        "nametag",
+        "ftb",
+        "aprendizaje",
+        "plan"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__aprendizaje_mods_nametag_y_plan_v3.md",
+      "created": "2026-08-20T11:24:20.400408"
+    },
+    {
+      "title": "Direct: Instalados 6 mods de mejora helper server",
+      "category": "Server",
+      "tags": [
+        "mods",
+        "skinrestorer",
+        "doesittick",
+        "imfast",
+        "crashexploitfixer"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalados_6_mods_de_mejora_helper_server.md",
+      "created": "2026-08-20T11:46:13.387089"
+    },
+    {
+      "title": "Direct: Night vision mejorado a Simple Night Vision",
+      "category": "Server",
+      "tags": [
+        "nightvision",
+        "mod",
+        "mejora"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__night_vision_mejorado_a_simple_night_visio.md",
+      "created": "2026-08-20T11:50:02.152712"
+    },
+    {
+      "title": "Direct: Instalado disconnect-packet-fix",
+      "category": "Server",
+      "tags": [
+        "disconnect",
+        "packet",
+        "mod",
+        "fix"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_disconnect-packet-fix.md",
+      "created": "2026-08-20T11:51:20.128103"
+    },
+    {
+      "title": "Direct: Instalado Custom Names",
+      "category": "Server",
+      "tags": [
+        "customnames",
+        "nametag",
+        "mod",
+        "mejora"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_custom_names.md",
+      "created": "2026-08-20T11:54:44.096434"
+    },
+    {
+      "title": "Direct: Instalado SDLink discord bridge",
+      "category": "Server",
+      "tags": [
+        "discord",
+        "bridge",
+        "sdlink",
+        "bot"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_sdlink_discord_bridge.md",
+      "created": "2026-08-20T11:57:34.928106"
+    },
+    {
+      "title": "Direct: Instalado Cobblemon Ranked",
+      "category": "Server",
+      "tags": [
+        "cobblemon",
+        "ranked",
+        "pvp",
+        "elo",
+        "mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_cobblemon_ranked.md",
+      "created": "2026-08-20T12:01:26.385228"
+    },
+    {
+      "title": "Direct: Instalado CustomNameTags+Polymer",
+      "category": "Server",
+      "tags": [
+        "customnametags",
+        "nametag",
+        "polymer",
+        "mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_customnametags+polymer.md",
+      "created": "2026-08-20T12:07:18.545142"
+    },
+    {
+      "title": "Direct: Instalado Lazy Chunk Load",
+      "category": "Server",
+      "tags": [
+        "chunk",
+        "optimizacion",
+        "lag",
+        "mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__instalado_lazy_chunk_load.md",
+      "created": "2026-08-20T12:13:43.452838"
+    },
+    {
+      "title": "Direct: Pendiente BetterView view distance",
+      "category": "Server",
+      "tags": [
+        "betterview",
+        "view",
+        "chunk",
+        "pendiente"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__pendiente_betterview_view_distance.md",
+      "created": "2026-08-20T12:16:59.981469"
+    },
+    {
+      "title": "Direct: Pendiente optimizar chunks al volar",
+      "category": "Server",
+      "tags": [
+        "chunk",
+        "vuelo",
+        "lag",
+        "optimizacion",
+        "pendiente"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__pendiente_optimizar_chunks_al_volar.md",
+      "created": "2026-08-20T12:17:11.578285"
+    },
+    {
+      "title": "Direct: Descartado Cobblemon Quick Item Swap",
+      "category": "Server",
+      "tags": [
+        "cobblemon",
+        "itemswap",
+        "descartado",
+        "client"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__descartado_cobblemon_quick_item_swap.md",
+      "created": "2026-08-20T12:21:19.627326"
+    },
+    {
+      "title": "Direct: Verificacion deps y desactivados CustomNameTags",
+      "category": "Server",
+      "tags": [
+        "deps",
+        "customnametags",
+        "polymer",
+        "verificacion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__verificacion_deps_y_desactivados_customnam.md",
+      "created": "2026-08-20T12:29:20.766438"
+    },
+    {
+      "title": "Direct: Desactivados nametag mods con dep faltante",
+      "category": "Server",
+      "tags": [
+        "deps",
+        "customname",
+        "nametag",
+        "verificacion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__desactivados_nametag_mods_con_dep_faltante.md",
+      "created": "2026-08-20T12:30:35.300654"
+    },
+    {
+      "title": "Direct: Arranque verificado mods nuevos",
+      "category": "Server",
+      "tags": [
+        "arranque",
+        "mods",
+        "verificado"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__arranque_verificado_mods_nuevos.md",
+      "created": "2026-08-20T12:33:46.139416"
+    },
+    {
+      "title": "Direct: Analisis 48h logs rendimiento",
+      "category": "Server",
+      "tags": [
+        "logs",
+        "rendimiento",
+        "lag",
+        "autosave",
+        "vuelo"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__analisis_48h_logs_rendimiento.md",
+      "created": "2026-08-20T12:40:19.023780"
+    },
+    {
+      "title": "Direct: Silenciado LazyChunkLoad performance_tips",
+      "category": "Server",
+      "tags": [
+        "lazychunkload",
+        "consola",
+        "silenciar"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__silenciado_lazychunkload_performance_tips.md",
+      "created": "2026-08-20T12:57:55.580957"
+    },
+    {
+      "title": "Direct: Leccion: investigar doc dev antes de tocar mods",
+      "category": "Server",
+      "tags": [
+        "leccion",
+        "investigar",
+        "config"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__leccion__investigar_doc_dev_antes_de_tocar.md",
+      "created": "2026-08-20T12:59:51.660727"
+    },
+    {
+      "title": "Direct: LazyChunkLoad silenciado performance_tips",
+      "category": "Server",
+      "tags": [
+        "lazychunkload",
+        "consola",
+        "silenciar"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\server\\direct__lazychunkload_silenciado_performance_tips.md",
+      "created": "2026-08-20T13:00:03.435452"
+    },
+    {
+      "title": "Direct: Provider NEXUS memory creado y activado",
+      "category": "Hermes",
+      "tags": [
+        "provider",
+        "nexus",
+        "memoria",
+        "plugin"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__provider_nexus_memory_creado_y_activado.md",
+      "created": "2026-08-20T13:12:00.886748"
+    },
+    {
+      "title": "Direct: Hito: inteligencia 500x gracias a NEXUS",
+      "category": "Hermes",
+      "tags": [
+        "hito",
+        "nexus",
+        "unificacion",
+        "memoria"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__hito__inteligencia_500x_gracias_a_nexus.md",
+      "created": "2026-08-20T13:13:17.334154"
+    },
+    {
+      "title": "Direct: Opencode domado como asistente free",
+      "category": "Hermes",
+      "tags": [
+        "opencode",
+        "delegacion",
+        "free",
+        "asistente"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__opencode_domado_como_asistente_free.md",
+      "created": "2026-08-20T13:17:39.868557"
+    },
+    {
+      "title": "Direct: cobblemon-ecosistema",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "neoforge",
+        "minecraft",
+        "1.21.1",
+        "mod"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-ecosistema.md",
+      "created": "2026-08-20T13:21:21.795720"
+    },
+    {
+      "title": "Direct: cobblemon-servidor",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "fabric-server",
+        "setup",
+        "1.21.1",
+        "neoforge",
+        "architectury"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-servidor.md",
+      "created": "2026-08-20T13:21:27.777112"
+    },
+    {
+      "title": "Direct: cobblemon-custom-pokemon",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "datapack",
+        "custom-pokemon",
+        "species",
+        "spawn-pool",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-custom-pokemon.md",
+      "created": "2026-08-20T13:21:30.187057"
+    },
+    {
+      "title": "Direct: cobblemon-assets",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "blockbench",
+        "assets",
+        "variants",
+        "datapack",
+        "resourcepack",
+        "shiny"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-assets.md",
+      "created": "2026-08-20T13:21:33.118555"
+    },
+    {
+      "title": "Direct: cobblemon-optimizacion",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "optimizacion",
+        "tps",
+        "cobbleoptimizer",
+        "server",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-optimizacion.md",
+      "created": "2026-08-20T13:21:40.267620"
+    },
+    {
+      "title": "Direct: cobblemon-ecosistema-addons",
+      "category": "Minecraft",
+      "tags": [
+        "cobblemon",
+        "addons",
+        "architectury",
+        "fabric",
+        "gradle",
+        "modrimputation-curseforge",
+        "kotlin"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__cobblemon-ecosistema-addons.md",
+      "created": "2026-08-20T13:21:50.234233"
+    },
+    {
+      "title": "Direct: cobblemon-spawning/spawn_pool_world-config",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "spawns",
+        "config",
+        "datapack",
+        "1.21.1",
+        "buckets",
+        "weight"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-spawning_spawn_pool_world-config.md",
+      "created": "2026-08-20T13:24:36.334510"
+    },
+    {
+      "title": "Direct: cobblemon-config/main-config-file",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "config",
+        "toml",
+        "spawning",
+        "battles",
+        "storage",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-config_main-config-file.md",
+      "created": "2026-08-20T13:24:39.985174"
+    },
+    {
+      "title": "Direct: cobblemon-integrations/cobbledex-spawn-reference",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "cobbledex",
+        "REI",
+        "JEI",
+        "EMI",
+        "spawns",
+        "reference",
+        "data"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-integrations_cobbledex-spawn-ref.md",
+      "created": "2026-08-20T13:24:43.591988"
+    },
+    {
+      "title": "Direct: cobblemon-forms-evolutions/data-driven",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "forms",
+        "evolutions",
+        "aspects",
+        "resolvers",
+        "datapack",
+        "evolution-requirements"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-forms-evolutions_data-driven.md",
+      "created": "2026-08-20T13:24:47.599761"
+    },
+    {
+      "title": "Direct: cobblemon-npcs-trainers/ecosystem",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "trainers",
+        "npc",
+        "structures",
+        "datapack",
+        "yaml",
+        "battle-rewards"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-npcs-trainers_ecosystem.md",
+      "created": "2026-08-20T13:24:55.199394"
+    },
+    {
+      "title": "Direct: cobblemon-integrations/mods-econ",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "integrations",
+        "JEI",
+        "Jade",
+        "Waystones",
+        "Serene Seasons",
+        "Enhanced Celestials"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-integrations_mods-econ.md",
+      "created": "2026-08-20T13:25:02.389972"
+    },
+    {
+      "title": "Direct: cobblemon-battles-structures/turn-based",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "battles",
+        "showdown",
+        "structures",
+        "battleTheme",
+        "flee",
+        "spectate"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-battles-structures_turn-based.md",
+      "created": "2026-08-20T13:25:07.122978"
+    },
+    {
+      "title": "Direct: cobblemon-datapack/custom-spawns-tutorial",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon",
+        "custom-spawns",
+        "tutorial",
+        "datapack",
+        "pack.mcmeta",
+        "spawn_pool_world"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-datapack_custom-spawns-tutorial.md",
+      "created": "2026-08-20T13:25:14.164441"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-networking-payloads-c2s-s2c",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-networking-payloads-c2s-.md",
+      "created": "2026-08-20T13:25:21.188187"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-networking-handlers",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-networking-handlers.md",
+      "created": "2026-08-20T13:25:27.978603"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-yarn-mappings-loom",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-yarn-mappings-loom.md",
+      "created": "2026-08-20T13:25:33.852692"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-fabric.mod.json-entrypoints",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-fabric.mod.json-entrypoi.md",
+      "created": "2026-08-20T13:25:39.044051"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-dependencias",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-dependencias.md",
+      "created": "2026-08-20T13:25:46.460688"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-mixins-registro-config",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-mixins-registro-config.md",
+      "created": "2026-08-20T13:25:55.351372"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-registro-items-bloques",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-registro-items-bloques.md",
+      "created": "2026-08-20T13:26:03.374097"
+    },
+    {
+      "title": "Direct: fabric-mod-1.21.1-mixins-annotaciones",
+      "category": "Minecraft-mods",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__fabric-mod-1.21.1-mixins-annotaciones.md",
+      "created": "2026-08-20T13:26:11.716239"
+    },
+    {
+      "title": "Direct: Directiva: Hermes planifica, opencode ejecuta",
+      "category": "Hermes",
+      "tags": [
+        "directiva",
+        "opencode",
+        "delegacion",
+        "planificacion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__directiva__hermes_planifica,_opencode_ejec.md",
+      "created": "2026-08-20T13:26:26.189823"
+    },
+    {
+      "title": "Direct: Verificacion recoleccion opencode",
+      "category": "Hermes",
+      "tags": [
+        "verificacion",
+        "recoleccion",
+        "opencode",
+        "nexus"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__verificacion_recoleccion_opencode.md",
+      "created": "2026-08-20T13:26:40.196368"
+    },
+    {
+      "title": "Direct: Informe director delegaciones opencode",
+      "category": "Hermes",
+      "tags": [
+        "director",
+        "opencode",
+        "delegacion",
+        "leccion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__informe_director_delegaciones_opencode.md",
+      "created": "2026-08-20T13:30:03.791520"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "1.21.1",
+        "entrypoints",
+        "modinitializer",
+        "java"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:31:55.045528"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "events",
+        "callbacks",
+        "fabric-api",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:31:58.694535"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "gradle",
+        "loom",
+        "1.21.1",
+        "remap",
+        "build"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:32:17.824512"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "kotlin",
+        "java",
+        "fabric-language-kotlin",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:32:21.157790"
+    },
+    {
+      "title": "Direct: Leccion: recolectar conocimiento NUEVO no duplicar",
+      "category": "Hermes",
+      "tags": [
+        "leccion",
+        "opencode",
+        "recoleccion",
+        "duplicado"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\hermes\\direct__leccion__recolectar_conocimiento_nuevo_no_.md",
+      "created": "2026-08-20T13:32:44.115838"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "architectury",
+        "fabric-api",
+        "librerias",
+        "multiplatform",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:32:55.138384"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/ftb-teams",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "ftb-teams",
+        "server",
+        "equipos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_ftb-teams.md",
+      "created": "2026-08-20T13:33:05.861286"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "registro",
+        "registry",
+        "datagen",
+        "patterns",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:33:24.718034"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "testing",
+        "gametest",
+        "junit",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:33:33.275926"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/luckperms",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "luckperms",
+        "permisos",
+        "server"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_luckperms.md",
+      "created": "2026-08-20T13:33:46.175794"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/ftb-teams-ranks-chunks",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "ftb-teams",
+        "ftb-ranks",
+        "ftb-chunks",
+        "permisos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_ftb-teams-ranks-ch.md",
+      "created": "2026-08-20T13:34:04.322352"
+    },
+    {
+      "title": "Direct: minecraft-1.21.1-world-structure/anvil-region-format",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "anvil",
+        "world-structure",
+        "mca",
+        "level.dat"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-1.21.1-world-structure_anvil-reg.md",
+      "created": "2026-08-20T13:34:23.644742"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/luckperms-uso",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "luckperms",
+        "grupos",
+        "comandos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_luckperms-uso.md",
+      "created": "2026-08-20T13:34:38.935075"
+    },
+    {
+      "title": "Direct: minecraft-1.21-chunk-format/nbt-sections",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "chunk-format",
+        "anvil",
+        "nbt",
+        "sections",
+        "1.21"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-1.21-chunk-format_nbt-sections.md",
+      "created": "2026-08-20T13:34:56.541283"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "testing",
+        "gametest",
+        "junit",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:35:02.682216"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/cobblemon-economy",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "cobblemon-economy",
+        "shops",
+        "economia",
+        "server"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_cobblemon-economy.md",
+      "created": "2026-08-20T13:35:06.141322"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "registro",
+        "registry",
+        "datagen",
+        "patterns",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:35:17.106462"
+    },
+    {
+      "title": "Direct: minecraft-nbt/named-binary-tag",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "nbt",
+        "format",
+        "gzip",
+        "lz4",
+        "zlib",
+        "serialization"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-nbt_named-binary-tag.md",
+      "created": "2026-08-20T13:35:20.222226"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "registro",
+        "registry",
+        "datagen",
+        "patterns",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:35:21.698069"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/ftb-teams",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "ftb-teams",
+        "server",
+        "equipos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_ftb-teams.md",
+      "created": "2026-08-20T13:35:25.371153"
+    },
+    {
+      "title": "Direct: minecraft-dimensions/dim-folder-layout",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "dimensions",
+        "overworld",
+        "nether",
+        "end",
+        "DIM-1",
+        "DIM1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-dimensions_dim-folder-layout.md",
+      "created": "2026-08-20T13:35:39.187475"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "testing",
+        "gametest",
+        "junit",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:35:41.294814"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/ftb-teams-ranks-chunks",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "ftb-teams",
+        "ftb-ranks",
+        "ftb-chunks",
+        "permisos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_ftb-teams-ranks-ch.md",
+      "created": "2026-08-20T13:35:44.052906"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/luckperms",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "luckperms",
+        "permisos",
+        "server"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_luckperms.md",
+      "created": "2026-08-20T13:35:48.061175"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/luckperms-uso",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "luckperms",
+        "grupos",
+        "comandos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_luckperms-uso.md",
+      "created": "2026-08-20T13:35:50.735284"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "testing",
+        "gametest",
+        "junit",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:35:52.938550"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/cobblemon-economy",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "cobblemon-economy",
+        "shops",
+        "economia",
+        "server"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_cobblemon-economy.md",
+      "created": "2026-08-20T13:35:56.462568"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/cobbledollars",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "cobbledollars",
+        "economia",
+        "shops"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_cobbledollars.md",
+      "created": "2026-08-20T13:36:09.525281"
+    },
+    {
+      "title": "Direct: fabric-modding",
+      "category": "Programacion",
+      "tags": [
+        "minecraft",
+        "fabric",
+        "registro",
+        "registry",
+        "datagen",
+        "patterns",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\programacion\\direct__fabric-modding.md",
+      "created": "2026-08-20T13:36:23.276468"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/optimizacion",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "lithium",
+        "ferritecore",
+        "optimizacion",
+        "starlight",
+        "c2me"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_optimizacion.md",
+      "created": "2026-08-20T13:36:40.812377"
+    },
+    {
+      "title": "Direct: minecraft/fabric/1.21.1/claims-flan-cobblemon",
+      "category": "Config",
+      "tags": [
+        "cobblemon",
+        "fabric",
+        "1.21.1",
+        "flan",
+        "claims",
+        "places",
+        "cobblemon-flan",
+        "proteccion"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\config\\direct__minecraft_fabric_1.21.1_claims-flan-cobble.md",
+      "created": "2026-08-20T13:36:59.476848"
+    },
+    {
+      "title": "Direct: mc-temperature-check",
+      "category": "Minecraft",
+      "tags": [
+        "x"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__mc-temperature-check.md",
+      "created": "2026-08-20T13:37:37.014529"
+    },
+    {
+      "title": "Direct: mods-fabric-inicializacion-entrypoints",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,entrypoints,init,java",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-inicializacion-entrypoints.md",
+      "created": "2026-08-20T13:39:37.252000"
+    },
+    {
+      "title": "Direct: mods-fabric-loom-gradle-avanzado",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,loom,gradle,build,java",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-loom-gradle-avanzado.md",
+      "created": "2026-08-20T13:39:50.894915"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-region-files-anvil",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "region",
+        "mca",
+        "anvil",
+        "chunk"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-region-files-anvil.md",
+      "created": "2026-08-20T13:40:09.300920"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-world-structure",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "server",
+        "world",
+        "level.dat",
+        "playerdata"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-world-structure.md",
+      "created": "2026-08-20T13:40:47.713428"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-chunk-nbt-format",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "chunk",
+        "nbt",
+        "sections",
+        "heightmap"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-chunk-nbt-format.md",
+      "created": "2026-08-20T13:41:14.117262"
+    },
+    {
+      "title": "Direct: cobblemon-server/eco-shops-cobblemon-economy",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "cobblemon-economy",
+        "economia",
+        "tiendas",
+        "shops",
+        "pokedollars",
+        "pokecoins",
+        "fabric",
+        "1.21.1",
+        "json-config"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_eco-shops-cobblemon-econo.md",
+      "created": "2026-08-20T13:41:27.135689"
+    },
+    {
+      "title": "Direct: cobblemon-server/teams-ftb-api",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "ftb-teams",
+        "teams-api",
+        "fabric",
+        "1.21.1",
+        "config-snbt",
+        "permisos"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_teams-ftb-api.md",
+      "created": "2026-08-20T13:41:54.319919"
+    },
+    {
+      "title": "Direct: cobblemon-server/placeholder-api",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "placeholder-api",
+        "text-placeholder-api",
+        "patbox",
+        "fabric",
+        "1.21.1",
+        "jij",
+        "libreria"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_placeholder-api.md",
+      "created": "2026-08-20T13:42:21.075602"
+    },
+    {
+      "title": "Direct: cobblemon-server/luckperms",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "luckperms",
+        "permisos",
+        "fabric",
+        "1.21.1",
+        "config.yml",
+        "grupos",
+        "herencia"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_luckperms.md",
+      "created": "2026-08-20T13:42:51.814542"
+    },
+    {
+      "title": "Direct: mods-fabric-java-vs-kotlin",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,kotlin,java,flan,language-adapter",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-java-vs-kotlin.md",
+      "created": "2026-08-20T13:43:10.115965"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-nbt-format-dataversion",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "nbt",
+        "snbt",
+        "dataversion",
+        "datafixerupper"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-nbt-format-dataver.md",
+      "created": "2026-08-20T13:43:53.578036"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-dimensions-folders",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "dimensions",
+        "overworld",
+        "nether",
+        "end",
+        "DIM-1",
+        "DIM1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-dimensions-folders.md",
+      "created": "2026-08-20T13:44:23.196096"
+    },
+    {
+      "title": "Direct: cobblemon-server/optimizacion-lithium",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "lithium",
+        "optimizacion",
+        "performance",
+        "fabric",
+        "1.21.1",
+        "lithium.properties",
+        "mixin-config"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_optimizacion-lithium.md",
+      "created": "2026-08-20T13:44:56.454591"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-tick-load-system",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "tick",
+        "simulation-distance",
+        "ticket",
+        "forceload",
+        "spawn chunks"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-tick-load-system.md",
+      "created": "2026-08-20T13:45:28.084116"
+    },
+    {
+      "title": "Direct: mods-fabric-java-vs-kotlin",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,kotlin,java,flan,language-adapter",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-java-vs-kotlin.md",
+      "created": "2026-08-20T13:45:38.838313"
+    },
+    {
+      "title": "Direct: minecraft-server-1.21.1-datapacks-functions",
+      "category": "Minecraft",
+      "tags": [
+        "minecraft",
+        "1.21.1",
+        "datapack",
+        "functions",
+        "pack_format",
+        "pack.mcmeta",
+        "tags"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft\\direct__minecraft-server-1.21.1-datapacks-function.md",
+      "created": "2026-08-20T13:46:03.203526"
+    },
+    {
+      "title": "Direct: cobblemon-server/shops-universal-shops",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "universal-shops",
+        "patbox",
+        "tiendas",
+        "shops",
+        "fabric",
+        "1.21.1",
+        "server-side",
+        "craftable"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-server_shops-universal-shops.md",
+      "created": "2026-08-20T13:46:20.333677"
+    },
+    {
+      "title": "Direct: mods-fabric-fabric-api-modulos",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,fabric-api,api,modulos,eventos",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-fabric-api-modulos.md",
+      "created": "2026-08-20T13:46:50.821363"
+    },
+    {
+      "title": "Direct: ftb-teams-fabric/config-permissions",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "ftb-teams",
+        "config",
+        "cobblemon",
+        "permissions"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__ftb-teams-fabric_config-permissions.md",
+      "created": "2026-08-20T13:47:21.932660"
+    },
+    {
+      "title": "Direct: mods-fabric-fabric-api-modulos",
+      "category": "Mods-fabric",
+      "tags": "fabric,minecraft,fabric-api,api,modulos,eventos",
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-fabric-api-modulos.md",
+      "created": "2026-08-20T13:47:33.593888"
+    },
+    {
+      "title": "Direct: ftb-teams-fabric/config-permissions",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "ftb-teams",
+        "config",
+        "cobblemon",
+        "permissions"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__ftb-teams-fabric_config-permissions.md",
+      "created": "2026-08-20T13:47:34.737006"
+    },
+    {
+      "title": "Direct: luckperms-fabric/config-setup",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "luckperms",
+        "permissions",
+        "config",
+        "cobblemon"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__luckperms-fabric_config-setup.md",
+      "created": "2026-08-20T13:48:16.203555"
+    },
+    {
+      "title": "Direct: mods-fabric-architectury-multiloader",
+      "category": "Mods-fabric",
+      "tags": [
+        "fabric",
+        "minecraft",
+        "architectury",
+        "multiloader",
+        "neoforge",
+        "platform"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-architectury-multiloader.md",
+      "created": "2026-08-20T13:48:59.224536"
+    },
+    {
+      "title": "Direct: placeholder-api-cobblemon/config",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "placeholders",
+        "cobblemon",
+        "config",
+        "api"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__placeholder-api-cobblemon_config.md",
+      "created": "2026-08-20T13:49:39.651664"
+    },
+    {
+      "title": "Direct: mods-fabric-testing-unit-gametest",
+      "category": "Mods-fabric",
+      "tags": [
+        "fabric",
+        "minecraft",
+        "testing",
+        "junit",
+        "gametest",
+        "ci"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\mods-fabric\\direct__mods-fabric-testing-unit-gametest.md",
+      "created": "2026-08-20T13:50:32.632097"
+    },
+    {
+      "title": "Direct: cobblemon-economy/shops-config",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "cobblemon",
+        "economy",
+        "shops",
+        "config",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-economy_shops-config.md",
+      "created": "2026-08-20T13:51:44.674953"
+    },
+    {
+      "title": "Direct: cobbledollar-economy-addon/trading-config",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "cobblemon",
+        "cobbledollars",
+        "shops",
+        "trading",
+        "eco"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobbledollar-economy-addon_trading-config.md",
+      "created": "2026-08-20T13:52:35.101762"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/entrypoint-registration",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "modinitializer",
+        "entrypoints",
+        "registry"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_entrypoint-registration.md",
+      "created": "2026-08-20T13:53:19.786809"
+    },
+    {
+      "title": "Direct: fabric-optimization/lithium-ferritecore",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "optimization",
+        "lithium",
+        "ferritecore",
+        "performance",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__fabric-optimization_lithium-ferritecore.md",
+      "created": "2026-08-20T13:53:53.018831"
+    },
+    {
+      "title": "Direct: ftb-teams-api/dev",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "ftb-teams",
+        "api",
+        "dev",
+        "config"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__ftb-teams-api_dev.md",
+      "created": "2026-08-20T13:54:16.524177"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/event-handling",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "events",
+        "callbacks",
+        "fabric-api"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_event-handling.md",
+      "created": "2026-08-20T13:54:44.453395"
+    },
+    {
+      "title": "Direct: cobblemon-economy/shops-config",
+      "category": "Cobblemon-minecraft",
+      "tags": [
+        "fabric",
+        "cobblemon",
+        "economy",
+        "shops",
+        "config",
+        "1.21.1"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-minecraft\\direct__cobblemon-economy_shops-config.md",
+      "created": "2026-08-20T13:54:56.559570"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/loom-advanced",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "gradle",
+        "loom",
+        "multiproject"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_loom-advanced.md",
+      "created": "2026-08-20T13:55:16.783235"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/java-vs-kotlin",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "kotlin",
+        "fabric-language-kotlin",
+        "java"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_java-vs-kotlin.md",
+      "created": "2026-08-20T13:55:36.438979"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/architectury",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "architectury",
+        "multiloader",
+        "neoforge"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_architectury.md",
+      "created": "2026-08-20T13:55:56.911985"
+    },
+    {
+      "title": "Direct: fabric-kotlin-mods/testing",
+      "category": "Minecraft-modding",
+      "tags": [
+        "fabric",
+        "1.21.1",
+        "testing",
+        "junit",
+        "gametest"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-modding\\direct__fabric-kotlin-mods_testing.md",
+      "created": "2026-08-20T13:56:42.581249"
+    },
+    {
+      "title": "Direct: cobblemon_config",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_config.md",
+      "created": "2026-08-20T13:59:15.406304"
+    },
+    {
+      "title": "Direct: cobblemon_comandos_admin",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_comandos_admin.md",
+      "created": "2026-08-20T13:59:28.159577"
+    },
+    {
+      "title": "Direct: cobblemon_pokeballs",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_pokeballs.md",
+      "created": "2026-08-20T13:59:50.344664"
+    },
+    {
+      "title": "Direct: cobblemon_apricorn_farming",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_apricorn_farming.md",
+      "created": "2026-08-20T14:00:05.400917"
+    },
+    {
+      "title": "Direct: cobblemon_evolucion",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_evolucion.md",
+      "created": "2026-08-20T14:00:22.273156"
+    },
+    {
+      "title": "Direct: cobblemon_fossiles_pasture",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_fossiles_pasture.md",
+      "created": "2026-08-20T14:01:10.019790"
+    },
+    {
+      "title": "Direct: Manual Cobblemon Ranked ES",
+      "category": "Minecraft-mods",
+      "tags": [
+        "manual",
+        "cobblemon",
+        "ranked",
+        "espa\u00f1ol"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__manual_cobblemon_ranked_es.md",
+      "created": "2026-08-20T14:08:54.802032"
+    },
+    {
+      "title": "Direct: Manual CobbleBetterNPC ES",
+      "category": "Minecraft-mods",
+      "tags": [
+        "manual",
+        "npc",
+        "cobblebetter",
+        "espa\u00f1ol"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__manual_cobblebetternpc_es.md",
+      "created": "2026-08-20T14:09:20.825178"
+    },
+    {
+      "title": "Direct: Traduccion cobblemon_ranked ES pack",
+      "category": "Minecraft-mods",
+      "tags": [
+        "traduccion",
+        "cobblemon",
+        "ranked",
+        "pack"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__traduccion_cobblemon_ranked_es_pack.md",
+      "created": "2026-08-20T14:14:55.543939"
+    },
+    {
+      "title": "Direct: fabric.mod.json estructura y campos clave",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__fabric.mod.json_estructura_y_campos_clave.md",
+      "created": "2026-08-20T14:37:19.850709"
+    },
+    {
+      "title": "Direct: Fabric Loom plugin IDs remap vs no-remap",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__fabric_loom_plugin_ids_remap_vs_no-remap.md",
+      "created": "2026-08-20T14:37:37.222279"
+    },
+    {
+      "title": "Direct: Loom namedElements y source sets cliente/servidor",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__loom_namedelements_y_source_sets_cliente_s.md",
+      "created": "2026-08-20T14:37:45.250868"
+    },
+    {
+      "title": "Direct: Fabric Loader modelo de mods y nested JARs",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__fabric_loader_modelo_de_mods_y_nested_jars.md",
+      "created": "2026-08-20T14:38:05.331486"
+    },
+    {
+      "title": "Direct: Java bytecode para mixins: nombres internos y descriptores",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__java_bytecode_para_mixins__nombres_interno.md",
+      "created": "2026-08-20T14:38:16.472184"
+    },
+    {
+      "title": "Direct: Mixin Accessors e Invokers para acceder a miembros privados",
+      "category": "Fabric mod development 1.21.1",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development_1.21.1\\direct__mixin_accessors_e_invokers_para_acceder_a_.md",
+      "created": "2026-08-20T14:38:25.214318"
+    },
+    {
+      "title": "Direct: ChicknTurtle 3D Tools integrado a pack",
+      "category": "Minecraft-mods",
+      "tags": [
+        "texturas",
+        "3d",
+        "tools",
+        "resourcepack",
+        "integrado"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\minecraft-mods\\direct__chicknturtle_3d_tools_integrado_a_pack.md",
+      "created": "2026-08-20T15:02:14.304745"
+    },
+    {
+      "title": "Direct: Launcher update generico TARGET_MAP",
+      "category": "Launcher",
+      "tags": [
+        "launcher",
+        "update",
+        "respack",
+        "datapacks",
+        "obsoleto"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\launcher\\direct__launcher_update_generico_target_map.md",
+      "created": "2026-08-20T15:11:07.554505"
+    },
+    {
+      "title": "Direct: Release respack-v1 creada",
+      "category": "Launcher",
+      "tags": [
+        "release",
+        "respack",
+        "github",
+        "update"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\launcher\\direct__release_respack-v1_creada.md",
+      "created": "2026-08-20T15:15:02.836248"
+    },
+    {
+      "title": "Direct: Cobblemon biome tags para condiciones de spawn",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_biome_tags_para_condiciones_de_s.md",
+      "created": "2026-08-20T15:16:32.736008"
+    },
+    {
+      "title": "Direct: Cobblemon config main.json - opciones de Spawning",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_config_main.json_-_opciones_de_s.md",
+      "created": "2026-08-20T15:17:03.822956"
+    },
+    {
+      "title": "Direct: Cobblemon config main.json - Storage/Battles/Healing",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_config_main.json_-_storage_battl.md",
+      "created": "2026-08-20T15:17:27.804587"
+    },
+    {
+      "title": "Direct: Cobblemon Apricorns y crafting de Poke Balls",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_apricorns_y_crafting_de_poke_bal.md",
+      "created": "2026-08-20T15:17:47.861137"
+    },
+    {
+      "title": "Direct: Cobblemon Poke Balls - captura y obtencion especial",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_poke_balls_-_captura_y_obtencion.md",
+      "created": "2026-08-20T15:18:10.317923"
+    },
+    {
+      "title": "Direct: Cobblemon Healing Machine, Pasture Block y Resurrection Machine",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_healing_machine,_pasture_block_y.md",
+      "created": "2026-08-20T15:18:32.627297"
+    },
+    {
+      "title": "Direct: Cobblemon config main.json - Storage/Battles/Healing",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_config_main.json_-_storage_battl.md",
+      "created": "2026-08-20T15:18:43.278888"
+    },
+    {
+      "title": "Direct: Cobblemon Apricorns y crafting de Poke Balls",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_apricorns_y_crafting_de_poke_bal.md",
+      "created": "2026-08-20T15:18:45.961698"
+    },
+    {
+      "title": "Direct: Cobblemon Poke Balls - captura y obtencion especial",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_poke_balls_-_captura_y_obtencion.md",
+      "created": "2026-08-20T15:18:48.642206"
+    },
+    {
+      "title": "Direct: Cobblemon Healing Machine, Pasture Block y Resurrection Machine",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_healing_machine,_pasture_block_y.md",
+      "created": "2026-08-20T15:18:49.595253"
+    },
+    {
+      "title": "Direct: Launcher v5 recompilado update generico",
+      "category": "Launcher",
+      "tags": [
+        "launcher",
+        "recompilado",
+        "update",
+        "exe"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\launcher\\direct__launcher_v5_recompilado_update_generico.md",
+      "created": "2026-08-20T15:19:22.300171"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:23.388527"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:37.991409"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:41.359349"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:43.065095"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:47.939009"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:54:58.287683"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:55:14.191906"
+    },
+    {
+      "title": "Direct: creacion_mods_fabric_1.21.1",
+      "category": "Fabric_mod_development",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric_mod_development\\direct__creacion_mods_fabric_1.21.1.md",
+      "created": "2026-08-20T15:55:40.509290"
+    },
+    {
+      "title": "Direct: cobblemon_fakemon_species_json",
+      "category": "Cobblemon_ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon_ecosistema\\direct__cobblemon_fakemon_species_json.md",
+      "created": "2026-08-20T16:05:25.053224"
+    },
+    {
+      "title": "Direct: cobblemon_species_forms_variations",
+      "category": "Cobblemon_ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon_ecosistema\\direct__cobblemon_species_forms_variations.md",
+      "created": "2026-08-20T16:05:30.735656"
+    },
+    {
+      "title": "Direct: cobblemon_spawn_config",
+      "category": "Cobblemon_ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon_ecosistema\\direct__cobblemon_spawn_config.md",
+      "created": "2026-08-20T16:05:36.167766"
+    },
+    {
+      "title": "Direct: cobblemon_lang_files",
+      "category": "Cobblemon_ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon_ecosistema\\direct__cobblemon_lang_files.md",
+      "created": "2026-08-20T16:05:41.428802"
+    },
+    {
+      "title": "Direct: cobblemon_spawn_comandos_avanzado",
+      "category": "Cobblemon_ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon_ecosistema\\direct__cobblemon_spawn_comandos_avanzado.md",
+      "created": "2026-08-20T16:05:50.085612"
+    },
+    {
+      "title": "Direct: Cobblemon spawn detail presets",
+      "category": "Cobblemon-ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-ecosistema\\direct__cobblemon_spawn_detail_presets.md",
+      "created": "2026-08-20T16:39:25.845247"
+    },
+    {
+      "title": "Direct: Cobblemon datapack species file",
+      "category": "Cobblemon-ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-ecosistema\\direct__cobblemon_datapack_species_file.md",
+      "created": "2026-08-20T16:39:57.348363"
+    },
+    {
+      "title": "Direct: Cobblemon spawn conditions",
+      "category": "Cobblemon-ecosistema",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon-ecosistema\\direct__cobblemon_spawn_conditions.md",
+      "created": "2026-08-20T16:40:04.137865"
+    },
+    {
+      "title": "Direct: Fabric fabric.mod.json estructura",
+      "category": "Fabric-mod-dev",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric-mod-dev\\direct__fabric_fabric.mod.json_estructura.md",
+      "created": "2026-08-20T16:40:13.220714"
+    },
+    {
+      "title": "Direct: Fabric Loom y mappings",
+      "category": "Fabric-mod-dev",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric-mod-dev\\direct__fabric_loom_y_mappings.md",
+      "created": "2026-08-20T16:40:24.278065"
+    },
+    {
+      "title": "Direct: Fabric Language Kotlin (Kotlin para mods)",
+      "category": "Fabric-mod-dev",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric-mod-dev\\direct__fabric_language_kotlin_(kotlin_para_mods).md",
+      "created": "2026-08-20T16:40:36.285722"
+    },
+    {
+      "title": "Direct: Cobblemon: Apricorn y crafting de Poke Balls",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon__apricorn_y_crafting_de_poke_bal.md",
+      "created": "2026-08-20T17:15:55.546010"
+    },
+    {
+      "title": "Direct: Cobblemon: Pasture Block (pastoreo, NO breeding)",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon__pasture_block_(pastoreo,_no_bre.md",
+      "created": "2026-08-20T17:16:23.727409"
+    },
+    {
+      "title": "Direct: Cobblemon: Evolution Stones y evolucion por piedra",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon__evolution_stones_y_evolucion_po.md",
+      "created": "2026-08-20T17:16:57.432143"
+    },
+    {
+      "title": "Direct: Cobblemon: estado de breeding y huevos (no implementado)",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon__estado_de_breeding_y_huevos_(no.md",
+      "created": "2026-08-20T17:17:22.661732"
+    },
+    {
+      "title": "Direct: Fabric 1.21.1: crear un proyecto de mod",
+      "category": "Fabric",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric\\direct__fabric_1.21.1__crear_un_proyecto_de_mod.md",
+      "created": "2026-08-20T17:17:48.677997"
+    },
+    {
+      "title": "Direct: Fabric: componentes del toolchain (Loader, API, Loom)",
+      "category": "Fabric",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\fabric\\direct__fabric__componentes_del_toolchain_(loader,.md",
+      "created": "2026-08-20T17:18:34.929778"
+    },
+    {
+      "title": "Direct: cobblemon_breeding_mecanica",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_breeding_mecanica.md",
+      "created": "2026-08-20T17:26:10.480558"
+    },
+    {
+      "title": "Direct: cobblemon_pasture_block",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_pasture_block.md",
+      "created": "2026-08-20T17:26:37.885481"
+    },
+    {
+      "title": "Direct: cobblemon_pasture_block",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__cobblemon_pasture_block.md",
+      "created": "2026-08-20T17:27:19.129679"
+    },
+    {
+      "title": "Direct: ecosistema Cobblemon",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__ecosistema_cobblemon.md",
+      "created": "2026-08-20T18:03:47.939898"
+    },
+    {
+      "title": "Direct: ecosistema Cobblemon",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__ecosistema_cobblemon.md",
+      "created": "2026-08-20T18:05:50.221111"
+    },
+    {
+      "title": "Direct: ecosistema Cobblemon",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__ecosistema_cobblemon.md",
+      "created": "2026-08-20T18:06:43.738963"
+    },
+    {
+      "title": "Direct: ecosistema Cobblemon",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__ecosistema_cobblemon.md",
+      "created": "2026-08-20T18:07:38.714929"
+    },
+    {
+      "title": "Direct: ecosistema Cobblemon",
+      "category": "Cobblemon",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\cobblemon\\direct__ecosistema_cobblemon.md",
+      "created": "2026-08-20T18:08:15.765609"
+    },
+    {
+      "title": "Direct: Flujo launcher Electron v5 completado",
+      "category": "Launcher",
+      "tags": [
+        "launcher",
+        "electron",
+        "appdata",
+        "flujo",
+        "icono"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\launcher\\direct__flujo_launcher_electron_v5_completado.md",
+      "created": "2026-08-20T18:24:07.095434"
+    },
+    {
+      "title": "Direct: hermes_turn",
+      "category": "Learned",
+      "tags": [
+        "direct-learned"
+      ],
+      "path": "D:\\ias\\proyectos\\latamrust-nexus\\data\\knowledge\\learned\\direct__hermes_turn.md",
+      "created": "2026-08-20T18:30:24.302186"
+    }
+  ],
+  "categories": [
+    "People",
+    "Organizations",
+    "Projects",
+    "Topics",
+    "Web",
+    "Learned",
+    "Analysis",
+    "Research"
+  ],
+  "updated": "2026-08-20T18:30:24.302186"
+}

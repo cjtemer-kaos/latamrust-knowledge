@@ -1,0 +1,3 @@
+# rust-rcon-protocol
+
+RCON (Remote Console) for Rust admin access. Uses Source RCON over TCP/IP + WebSocket (WebRCON). Settings: rcon.web=1 enables WebSocket RCON, rcon.port 28016 (game port+1), rcon.password. WebRCON preferred for stability. Tools: RustAdmin (desktop, Windows - player management, banning, chat monitoring, scheduled commands), RCON.IO (web-based), BattleMetrics RCON. Connect: IP + port + password. Commands: oxide.version, find <cmd>, status, server.save, server.writecfg, ban/kick/mute, say broadcast. Oxide admin: oxide.reload/load/unload PluginName, oxide.grant/revoke user/group permission, oxide.group create. Groups: default, moderator, admin. RCON password must be strong (full server control).

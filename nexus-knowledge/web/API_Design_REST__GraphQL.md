@@ -1,0 +1,3 @@
+# API Design (REST & GraphQL)
+
+REST: resources = nouns, HTTP verbs (GET read, POST create, PUT replace, PATCH partial, DELETE). URL hierarchy: /api/v1/users/{id}/orders. Versioning: URL path (/v1/) or header (Accept: application/vnd.api+json;version=1). Pagination: cursor-based (reliable) vs offset-based (simple). Error format: RFC 7807 (Problem Details). HATEOAS: links for discoverability. GraphQL: single endpoint, client queries exact fields, strong typing (schema). N+1 problem: DataLoader for batching. Mutations: input type + payload type. Subscriptions: real-time via WebSockets. Prefer REST for simple CRUD, GraphQL for complex/composable UIs.

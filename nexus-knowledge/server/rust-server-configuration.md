@@ -1,0 +1,3 @@
+# rust-server-configuration
+
+Rust server.cfg at server/<identity>/cfg/server.cfg. IDENTITY: hostname, description, url, headerimage (512x256), logoimage, tags. MAP: worldsize 1000-6000 (recommend 3000-4500), seed, level (Procedural Map/Barren/HapisIsland), maxplayers. NETWORK: server.port 28015 UDP, rcon.port 28016 TCP, rcon.web 1, server.queryport 27015. PvE: server.pve true/false, stability. LAUNCH PARAMS: +rcon.password, +rcon.port, +server.port, +server.tickrate 30, +server.saveinterval 600, +server.identity, -silent-crashes. COMMANDS: server.writecfg, quit, status, find, say, ban, kick, banid, moderatorid, ownerid. Facepunch force wipe first Thursday/month - reinstalls uMod required.

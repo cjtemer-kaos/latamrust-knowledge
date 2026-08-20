@@ -1,0 +1,3 @@
+# DevSecOps & Shift-Left Security
+
+Shift left: test security early in dev cycle. SAST (Static Analysis): SonarQube, Semgrep, CodeQL -- finds bugs before commit. DAST (Dynamic Analysis): OWASP ZAP, Burp Suite -- tests running app. SCA (Software Composition): Dependabot, Snyk, Trivy -- vuln scanning in dependencies. Secret scanning: git-secrets, truffleHog, Gitleaks -- prevent credential leaks. Container security: Dockerfile best practices (distroless, non-root), image scanning (Trivy, Clair, Anchore), minimal base images (Alpine, distroless). IaC scanning: tfsec, checkov (Terraform, CloudFormation). Policy as Code: OPA (Open Policy Agent) for K8s admission control.

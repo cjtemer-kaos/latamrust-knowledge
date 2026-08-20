@@ -1,0 +1,3 @@
+# grok-build-graph-subagent-token-plugin
+
+GROK CODEBASE GRAPH: Tree-sitter + parallel parsing + memory-mapped I/O. Cache-first loading. Channel-based incremental updates via Actor model. GROK SUBAGENT RESOLUTION: Pure logic separated from host adapters. Layered precedence: explicit override > role > persona > parent. Resume identity validation. GROK TOKEN ESTIMATION: bytes/4 heuristic as single source of truth for /context, /session-info, auto-compact. GROK PLUGIN MARKETPLACE: Multi-source git-based discovery with canonical matching + filesystem fallback. PATRONES PARA NEXUS: incremental code graph via events, pure routing logic separado de transport, token estimation centralizado, skills from multiple repos.

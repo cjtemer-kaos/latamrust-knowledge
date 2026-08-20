@@ -1,0 +1,3 @@
+# MLOps & Model Serving
+
+Model registry: MLflow Model Registry, DVC, HuggingFace Hub. Feature store: Feast, Tecton (on-demand + streaming features). Model serving: TorchServe, Triton Inference Server (multi-framework, dynamic batching), vLLM (LLM serving with PagedAttention), Ollama (local LLMs), TGI (HuggingFace). Monitoring: data drift (Evidently AI, WhyLabs), model drift, prediction monitoring. A/B testing: shadow deployment (mirror traffic), canary (gradual rollout). Pipeline orchestration: Kubeflow, MLflow Pipelines, Airflow for ML (TFX). CI/CD for ML: CML (Continuous Machine Learning), DVC pipelines.

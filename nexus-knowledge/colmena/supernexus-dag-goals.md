@@ -1,0 +1,3 @@
+# supernexus-dag-goals
+
+DAG GOALS: src/core/dag_coordinator.py. dag_decompose MCP tool descompone objetivo en grafo de tareas (DAG). Cada nodo es TaskNode(id, title, description, assignee, status). Soporta dependencias, ejecucion paralela, y sintesis de resultados. Modelo: nexus-director-v6 via Ollama. run_agent_loop: ejecuta tareas autonomas con max_iterations (TDAO pattern - Think-Do-Act-Observe). run_harness: pipeline completo decompose-execute-synthesize-verify con max_iterations. mixture_of_agents: ejecuta misma tarea en multiples gemas y juzga la mejor respuesta. parallel_execute: corre gemas en paralelo y sintetiza.

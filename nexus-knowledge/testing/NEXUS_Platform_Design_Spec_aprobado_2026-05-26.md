@@ -1,0 +1,3 @@
+# NEXUS Platform Design Spec aprobado 2026-05-26
+
+Spec completo en docs/superpowers/specs/2026-05-26-nexus-platform-design.md. 13 secciones: Vision, Competencia (6 plataformas analizadas), Arquitectura 6-capas, Director Soberano (Decision Engine deterministico + LLM como tool + Command Protocol + fallback sin LLM), 4 Sub-Directors (Code/Research/Ops/Voice), Memory 6-capas (4-Gate Triage + Dream Consolidation nuevos), Interfaces (Tauri desktop + CLI nexus + Web API), Protocolos (MCP+A2A+ACP), LLM hibrido (local-first + cloud fallback + auto-downgrade), Skills Marketplace, Roadmap 8 fases 18 semanas, Metricas (>90% completion, >85% recall, <50% token waste). Prioridad F1: Director Soberano.

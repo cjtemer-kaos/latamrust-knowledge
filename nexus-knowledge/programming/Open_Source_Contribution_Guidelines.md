@@ -1,0 +1,3 @@
+# Open Source Contribution Guidelines
+
+First: find project (GitHub Explore, Good First Issues, CodeTriage). Read CONTRIBUTING.md, CODE_OF_CONDUCT.md. Setup: fork, clone, branch from main. Commit: conventional commits (feat:, fix:, docs:, refactor:, test:, chore:). PR: squash commits, rebase on main, descriptive title+body, link issue, add tests/screenshots. Communication: be respectful, assume good faith, answer questions on issue tracker. License compliance: respect project license (MIT, Apache 2.0, GPL). Long-term: become maintainer after consistent quality contributions. Don't: open huge PRs, argue in issues, bypass processes.

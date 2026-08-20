@@ -1,0 +1,3 @@
+# Fine-Tuning Strategies
+
+Full fine-tune: update all parameters (expensive, full model gradients). LoRA (Low-Rank Adaptation): train rank-decomposition matrices A*B inserted into attention layers, rank r=8-64, update only 0.1-1% of params. QLoRA: 4-bit quantized base model + LoRA, single 24GB GPU can fine-tune 65B model. Adapter: small bottleneck layers between transformer layers. Prefix Tuning: learn virtual tokens prepended to input. P-Tuning: learn continuous prompt embeddings. Soft Prompts: learnable embeddings prepended to input. Best practice: LoRA for most cases, full FT for domain-specific code/knowledge.

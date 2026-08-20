@@ -1,0 +1,3 @@
+# nexus-patterns-prioritarios
+
+PATRONES PRIORITARIOS de autopsia para implementar en Nexus: HIGH: App-as-Container (opencode), OpenAI-compatible /v1/chat/completions, A2A endpoints, DMN background cognition (lethe), Checkpoint Contract (hermes-workspace), LLMLingua prompt compression, 12-factor agents, Cursor-style summary at 85% context. MEDIUM: Event bus 40+ types (aden-hive), 6 memory types (openakita), episodic memory (engram), topic key upserts, PermissionManager 3-level (goose), Thompson Sampling router (ruflo), workspace-scoped memory (grok-build), hooks system (grok-build). LOW: self-modifying harness (browser-harness), agent-as-markdown-file (continue), minimal agent (Webwright 1.5k LOC).

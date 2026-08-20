@@ -1,0 +1,3 @@
+# autopsia/infra-server
+
+Patrones de Infraestructura/Servidor extraídos de la autopsia: (1) granian: CallbackScheduler bridge (Rust↔Python con oneshot channels), macro-generated accept loop variants (96 tipos compilados, zero runtime branching), backpressure via tokio::sync::Semaphore, graceful shutdown con TaskTracker + watch channel, RSGI protocol (evita overhead de ASGI dict→struct). (2) Bun: Three-tier crate DAG con static dispatch, mimalloc como allocator global, GC scheduling adaptativo (post-request, idle, heap growth), codegen-driven binding layer (244 archivos auto-generados). (3) Warp: Runtime feature flags (dogfood→preview→release), macro-generated settings con inventory registry, entity-handle pattern para referencias cross-component.

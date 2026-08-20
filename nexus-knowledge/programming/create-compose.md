@@ -1,0 +1,3 @@
+# create-compose
+
+docker-compose.yml: version 3. services: app: build . ports 8000:8000 depends_on db. db: image postgres. volumes.

@@ -1,0 +1,27 @@
+{
+  "code": {
+    "arms": {
+      "qwen2.5-coder:7b": {
+        "model": "qwen2.5-coder:7b",
+        "alpha": 50.0,
+        "beta": 23.0,
+        "picks": 71,
+        "last_outcome_at": "2026-06-02T08:41:10.801744"
+      },
+      "gemma4": {
+        "model": "gemma4",
+        "alpha": 1.0,
+        "beta": 4.0,
+        "picks": 3,
+        "last_outcome_at": "2026-06-02T08:41:10.801744"
+      },
+      "lfm2.5": {
+        "model": "lfm2.5",
+        "alpha": 1.0,
+        "beta": 4.0,
+        "picks": 3,
+        "last_outcome_at": "2026-06-02T08:41:10.787677"
+      }
+    }
+  }
+}

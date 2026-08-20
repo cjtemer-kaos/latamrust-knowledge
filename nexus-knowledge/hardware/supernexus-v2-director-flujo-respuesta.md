@@ -1,0 +1,3 @@
+# supernexus-v2-director-flujo-respuesta
+
+FLUJO DIRECTOR PARA RESPONDER: 1) Si empieza con mcp__ → ejecuta MCP tool directo. 2) Si empieza con research__ → deep research. 3) Si es ACCION (escribe/crea/haz/genera/programa/instala/configura/arregla/debug/test) → dispatch code/engineer/debugger. 4) Si es CONVERSACIONAL (tu/como/tus/que puedes/explicame/cuentame/hola) → responde directo con LLM. 5) Si es PREGUNTA FACTUAL → PRIMERO buscar en cerebro (obtener_conocimientos + filtro keywords). Si hay match → sintetiza con LLM. Si NO → web research → sage guarda → responde. HERRAMIENTAS: quick_response() para LLM directo, _web_search() para busqueda, _deep_research() para investigacion profunda. MODELOS: selected_model del request > modelo activo del registry > default_model.

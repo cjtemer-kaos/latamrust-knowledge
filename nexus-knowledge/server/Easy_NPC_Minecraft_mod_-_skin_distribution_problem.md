@@ -1,0 +1,3 @@
+# Easy NPC Minecraft mod - skin distribution problem
+
+PROBLEMA: En el mod Easy NPC de Minecraft, cuando un admin asigna una skin custom a un NPC, los jugadores que no tienen esa skin en su client ven el chat lleno de errores rojos. SOLUCIÓN: Investigar si se puede distribuir las skins via resourcepack o datapack del server para que todos los jugadores las reciban automáticamente. Revisar documentación oficial del desarrollador (GitHub: Kawr13/easy-npc, CurseForge, Modrinth). La sesión de investigación falló por Context length exceeded (209K tokens) - el modelo auxiliary de compresión no podía procesar tanto contexto. Fix aplicado: auxiliary.compression configurado con provider custom, model mimo-v2.5-free, context_length 200000.

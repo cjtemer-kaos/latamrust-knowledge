@@ -1,0 +1,3 @@
+# RAG (Retrieval-Augmented Generation) Patterns
+
+RAG: retrieve relevant docs from external knowledge base, inject into prompt context, LLM answers with source grounding. Naive RAG: index -> retrieve (top-k) -> generate (prompt + context). Advanced RAG: pre-retrieval (query rewriting, HyDE, query routing), post-retrieval (re-ranking, compression, filtering), iterative retrieval. Modular RAG: search+memory+fusion patterns. Graph RAG: use knowledge graph structure for multi-hop retrieval. Self-RAG: retrieve, then LLM judges relevance + factuality. CRAG: Corrective RAG with fallback web search. RAPTOR: hierarchical summarization clustering.

@@ -1,0 +1,3 @@
+# sql-functions
+
+SQL functions: 1) COUNT, SUM, AVG. 2) MIN, MAX. 3) COALESCE, NULLIF. 4) CASE WHEN. 5) String: CONCAT, SUBSTRING, LENGTH. 6) Date: NOW, DATE_TRUNC. 7) CAST.

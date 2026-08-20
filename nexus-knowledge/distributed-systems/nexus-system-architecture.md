@@ -1,0 +1,3 @@
+# nexus-system-architecture
+
+SuperNEXUS v2 is a sovereign local AI ecosystem. Architecture: Director engine (orchestration, planning, DAG) + 30 specialized gemas (agents) + 63 tools (21 AI tools, 12 local tools, 30 gemas) + MCP bridge (38 tools) + Memory system (cerebro DB, graph memory, RAG embeddings) + LLM gateway (4 providers: Ollama, Zen, Claude, OpenRouter) + NexusHive (agent communication) + PC2 node control. Server runs on port 9000 at http://localhost:9000. Brain at ~/.nexus/brain/. DirectorNexus deterministic engine fuses with MCP servers for full system control, browser automation, search, and code intelligence. Self-model capability map for routing.

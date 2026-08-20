@@ -1,0 +1,3 @@
+# rust-tebex-integration
+
+Tebex monetization for Rust via Tebex-Rust uMod plugin (GitHub: tebexio/Tebex-Rust). Install .cs to oxide/plugins/, oxide.reload Tebex, tebex:secret <key>. ADMIN: tebex.secret, tebex.sendlink, tebex.forcecheck, tebex.refresh, tebex.report, tebex.ban, tebex.lookup. USER: tebex.help, tebex.info, tebex.categories, tebex.packages, tebex.checkout, tebex.stats. APIs: 1) Plugin API - X-Tebex-Secret header, server commands. 2) Headless API - https://headless.tebex.io/api - categories, packages, baskets. Auth: HTTP Basic (Public Token + Private Key). Supports webhooks, RCON, MySQL integration.

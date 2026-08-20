@@ -1,0 +1,3 @@
+# autopsia/seguridad
+
+Patrones de Seguridad extraídos de la autopsia: (1) openfang: lattice-based taint tracking para prevención determinística de prompt injection, capability-based security con glob matching, Newtype IDs (AgentId, SessionId), mutual-HMAC authenticated wire protocol. (2) openclaw: Ed25519 keypairs en ~/.openclaw/device-identity.json, 2-phase pairing (nonce challenge → signed response), ExecApprovalPolicy con glob rules top-down, ExecEnvSanitizer bloquea 57 env vars peligrosos. (3) Suprawall ya existe en SuperNEXUS pero falta integración con taint tracking. (4) security-review skill de ECC: checklist completo para auth, input validation, secrets.

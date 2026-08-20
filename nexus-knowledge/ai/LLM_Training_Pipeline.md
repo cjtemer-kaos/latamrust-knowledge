@@ -1,0 +1,3 @@
+# LLM Training Pipeline
+
+Three stages: 1) Pre-training (next-token prediction on trillions of tokens, unsupervised, months on GPU clusters). 2) SFT (Supervised Fine-Tuning on instruction-output pairs, teaches format/instruction following). 3) RLHF (Reinforcement Learning from Human Feedback): train reward model on human preferences, then PPO to align policy with reward. Alternatives: DPO (Direct Preference Optimization, no explicit reward model), KTO (Kahneman-Tversky optimization for unpaired preferences). Scaling laws: performance scales with model size, data size, and compute (chinchilla rule: 20 tokens per parameter).

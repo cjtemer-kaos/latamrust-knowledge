@@ -1,0 +1,3 @@
+# Incident Response Playbook
+
+Phases: 1) Detection: monitoring (metrics, logs, alerts), user reports. 2) Triage: severity (SEV1=down, SEV2=degraded, SEV3=minor), assign incident commander. 3) Contain: rollback, feature flag, rate limit, isolate. 4) Mitigation: fix deployed, monitor. 5) Resolution: confirm, announce. 6) Postmortem: blameless, timeline, root cause, action items. Communication: internal status page, public status if customer-facing. Tools: PagerDuty/Opsgenie for alerts, Slack channels per incident, runbooks (playbooks/checklists). Keep postmortem blameless: 'server failed' not 'engineer failed'.

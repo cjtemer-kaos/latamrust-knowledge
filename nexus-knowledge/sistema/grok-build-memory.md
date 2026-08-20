@@ -1,0 +1,3 @@
+# grok-build-memory
+
+GROK MEMORY: Markdown-based cross-session memory under ~/.grok/memory/. Global MEMORY.md + per-workspace dirs keyed by blake3(cwd)[..16]. Session logs as YYYY-MM-DD-{slug}-{sid8}.md. Storage: MemoryStorage + MemoryScope. Index: SQLite-vec backed. EmbeddingProvider trait with lazy embed (chunks_without_embeddings -> batch embed -> upsert, batches of 32). Sub-modules: archive, backend, chunker, dream, embedding, index, mmr, query_expansion, search, storage. PATRONES PARA NEXUS: workspace-scoped via content hash, lazy embedding para no re-embed en cada write, feature-gated activation (--experimental-memory).

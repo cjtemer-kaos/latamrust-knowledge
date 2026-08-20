@@ -1,0 +1,3 @@
+# LangChain & LLM Framework Patterns
+
+LangChain: chains (sequence of calls), agents (LLM decides tool use), retrievers (document fetching), memory (conversation history). Components: ChatPromptTemplate (system+human/AI messages), RunnableParallel/RunnablePassthrough (LCEL), Tool/StructuredTool (function wrappers). LangGraph: build DAG/cyclic agent workflows (nodes + edges + state). Key patterns: agent-with-tools (ReAct loop), supervisor (LLM routes to sub-agents), parallelization (map-reduce), RAG chain (retrieve->format->generate). LlamaIndex: simpler RAG-focused, better data connectors, advanced indexing (summary, tree, keyword).

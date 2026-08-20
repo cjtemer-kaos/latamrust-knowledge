@@ -1,0 +1,3 @@
+# supernexus-capacidades-modelos
+
+CAPACIDADES MODELOS: 12 modelos Ollama locales en RTX 3060 12GB: nexus-director-v6(4.3GB, director/routing siempre residente), omnicoder-2-9b(5.7GB,codigo), qwen3.5-9b(6.6GB,chat general), deepseek-r1-8b(5.2GB,razonamiento), qwen2.5-coder-7b(4.7GB,codigo alt), qwen2.5vl-7b(6GB,vision), gemma4-12b(7.6GB,vision multimodal), nemotron-3-nano-4b(2.8GB,analisis rapido), qwen2.5-0.5b(397MB,resumen), nomic-embed-text(274MB,RAG embeddings), gemma4-latest(9.6GB,creativo opcional). Provider cloud: OpenCode Zen (modelos gratuitos cloud). VRAM budget: Director siempre + max 1-2 modelos extra simultaneos.

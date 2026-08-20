@@ -1,0 +1,3 @@
+# supernexus-mcp-tools
+
+38 herramientas MCP via nexus-sovereign bridge: mensajería (send/read_message), memoria KV (memory_set/get), cerebro largo plazo (brain_remember/recall/stats), control nodos (execute_on_pc2/remote_node, list_nodes, get_system_info, execute_remote_task), skills (list/load/load_section), Nexus Memory FTS5 (add/search/get_observation, add_task_finding, list_findings, memory_stats), BLAST (add_finding/decision, read_cloud, check_permissions), optimización (optimize_prompt, select_model, token_report), monitoreo (system_resources, nexus_status), enrutamiento adaptativo (router_select/stats), autoaprendizaje (self_learning_status), memoria jerárquica (memory_hierarchical_store/search/stats), búsqueda multi-señal (retrieval_search).

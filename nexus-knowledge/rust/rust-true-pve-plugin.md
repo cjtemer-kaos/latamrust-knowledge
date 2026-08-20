@@ -1,0 +1,3 @@
+# rust-true-pve-plugin
+
+TruePVE by nivex is the gold-standard PvE damage control plugin. Use with server.pve false (PvP ON). Uses RuleSets: configs defining who damages whom. Console cmds: tpve.def (reset), tpve.sched enable|disable, tpve.trace (debug 5min). Chat cmds: /tpve_prod (check entity), /tpve map <name> <target> (zone to RuleSet). Config: Default RuleSet, handleDamage, useZones (needs ZoneManager). Mappings: zone ID to RuleSet name. Schedule: auto-change RuleSets. Essential PvE stack: TruePVE + ZoneManager + NoEscape + Vanish. Used by DynamicPVP, PVP Indicator, ZoneManager Auto Zones.

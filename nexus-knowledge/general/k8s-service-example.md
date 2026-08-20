@@ -1,0 +1,3 @@
+# k8s-service-example
+
+Service: apiVersion: v1; kind: Service; metadata: {name: web-svc}; spec: {selector: {app: web}, ports: [{port: 80, targetPort: 80}], type: ClusterIP}

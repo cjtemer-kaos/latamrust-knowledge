@@ -1,0 +1,3 @@
+# supernexus-capacidades-codigo
+
+CAPACIDADES CODIGO: 1) GENERACION: gema code escribe Python, TypeScript, React, Go, Rust. Director delega auto a code/architect. 2) SANDBOX: sandbox_execute corre codigo en sandbox Python/JS/Bash/Go con timeout. 3) EJECUCION REMOTA: execute_on_remote_node ejecuta bash en PC2 via SSH. 4) CODEBASE: codebase_context comprime proyecto con Tree-sitter. codebase_query busca por relevancia. 5) CODEGRAPH: codegraph_build grafo conocimiento codigo. codegraph_query/nodes/cycles/god_nodes/surprising. 6) AUTO COMMIT: commits automaticos descriptivos. 7) AUTO TEST: genera y ejecuta tests. 8) DEBUGGING: gema debugger analiza errores/stacktraces y propone fixes.

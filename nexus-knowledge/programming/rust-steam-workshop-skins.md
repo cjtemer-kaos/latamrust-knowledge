@@ -1,0 +1,3 @@
+# rust-steam-workshop-skins
+
+Steam Workshop for Rust (appid 252490) for custom skins. Categories: Clothing (hoodie, pants, helmet), Weapons/Tools (AK47, Bolt Rifle, Thompson, hatchet), Deployables (doors, boxes, furnace), Misc (guitar). Skin IDs = Workshop file ID from URL. Server: SkinBox mod or Workshop Skin Viewer plugin (umod.org). uMod item list at umod.org/documentation/games/rust/definitions (updated weekly). Creating: Rust Workshop SDK (GitHub: Facepunch/RustWorkshop). Accepted for Game items become official. Admins assign Workshop skins via skin ID. Kits plugin supports skin IDs. Players need SkinBox enabled server.

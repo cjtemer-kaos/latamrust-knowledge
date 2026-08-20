@@ -1,0 +1,3 @@
+# github-actions-example
+
+GitHub Actions: name: CI; on: [push]; jobs: {test: {runs-on: ubuntu-latest, steps: [{uses: actions/checkout@v4}, {run: npm test}]}}.

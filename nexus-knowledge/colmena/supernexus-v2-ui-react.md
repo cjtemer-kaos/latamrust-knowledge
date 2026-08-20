@@ -1,0 +1,3 @@
+# supernexus-v2-ui-react
+
+UI: React+TypeScript+Tailwind+Zustand. STORES: appStore.ts(estado global, chat, WS streaming, providers, editor, voice, manager). API: wsChat.ts(websocket client para streaming). COMPONENTES: chat/, editor/, gemas/, home/, manager/, panels/, rightpanel/, settings/, sidebar/(NexusSidebar con zoom Electron, Config, KAOS_MCS). VISTAS: chat,editor,gemas,dag,brain,skills,hive,settings,security,blueprints,learning,vision,voice. COMUNICACION: POST /api/chat(HTTP) o WS ws://localhost:9000/api/ws/chat(streaming). PAYLOAD: {message, gem, selected_model, session_id}. ELECTRON: window.nexusAPI para zoom, IPC bridge.

@@ -1,0 +1,3 @@
+# Code Review Best Practices
+
+Reviewer: focus on correctness, design, test coverage, performance, security. Be constructive: 'Have you considered X instead?' not 'This is wrong'. Check: edge cases, error handling, null/empty, threading, logging, input validation. Author: keep PRs small (<400 lines), write good description, explain trade-offs, pre-review own diff. Automation first: lint, type check, tests, security scan before human review. Enforce via CI. Review speed: respond within 4h for small, 24h for large. Approve criteria: meets requirements, well-tested, follows conventions, no major issues.

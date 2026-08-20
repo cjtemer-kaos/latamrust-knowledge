@@ -1,0 +1,3 @@
+# rust-umod-oxide-hooks
+
+uMod (formerly Oxide) is the standard plugin framework for Rust servers. It provides hundreds of hooks that plugins subscribe to. Hooks follow the observer pattern: when a game event occurs, uMod calls all subscribed hook methods. Key hooks: OnPlayerConnected, OnPlayerDisconnected, OnPlayerChat, CanBuild, OnEntityTakeDamage, OnCraftItem. Plugins are written in C# as .cs files placed in oxide/plugins/. Hook methods use specific names that uMod matches automatically. Return false to cancel an action. Hooks support overloading, manual subscribe/unsubscribe for performance, and custom hooks via CallHook. Plugin count: 1,419 for Rust.

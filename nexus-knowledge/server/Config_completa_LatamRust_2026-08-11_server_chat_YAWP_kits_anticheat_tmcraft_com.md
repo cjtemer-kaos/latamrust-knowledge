@@ -1,0 +1,3 @@
+# Config completa LatamRust 2026-08-11: server, chat, YAWP, kits, anticheat, tmcraft, comunicacion agentes
+
+Config server LatamRust: RCON 25575, MC 55555, Paradigm 8765, RAM 8G-20G, 175 mods. Chat: Paradigm controla, enableCustomChatFormat=false, paradigm reload chat por RCON. Tablist: %player:name%. YAWP: op_bypass_flags=false, grupos members/owners. Kits: VIP 8homes+TP5s, VIPX 10homes+TP0s, /kit add vip 30d. Anticheat: latamrust-core 300s. TMCRAFT: 590 recetas rotas parcheadas (jar.new listo). EASYAUTH: 17 cuentas OK. Comunicacion agentes: Redis nexus:msg:chat (PC1:192.168.1.4:6379, PC2:192.168.1.16:6379), Ollama local deepseek-v4-flash, Discord bot asistente ia#2568. Coordinacion PC1+PC2 demostrada: 6 items server + INFORME-FINAL conjunto.

@@ -1,0 +1,3 @@
+# supernexus-capacidades-memoria
+
+CAPACIDADES MEMORIA: 1) BRAIN: brain_remember guarda, brain_recall busca por topic/texto. 2) OBSERVACIONES: add_observation FTS5, search_observations, topic_key upsert. 3) EPISODIOS: add_episode patrones What/Why/Where/Learned. 4) HIERARCHICAL: 3 tiers working/episodic/semantic, store/search/stats. 5) FINDINGS: add_task_finding guarda hallazgos, list_findings recupera. 6) RELACIONES: relate_observations edges tipados supersedes/contradicts/derived_from/relates_to. 7) BACKGROUND THINK: consolida observaciones recientes estilo DMN cerebro. 8) SELF LEARNING: aprende de interacciones exitosas. 9) MEMORY TRIAGE: clasifica memorias importantes vs olvidables. 10) DREAM CONSOLIDATION: procesa memorias para reforzar importantes.

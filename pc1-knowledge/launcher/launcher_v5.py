@@ -21,6 +21,18 @@ TEMP_DIR = os.path.join(os.environ.get("TEMP", os.path.expanduser("~")), "Cobble
 GDRIVE_ID = "1h0ohkqZrSO2XX-ZIXYx7Ru0lAKqj9--n"
 GDRIVE_URL = f"https://drive.google.com/uc?export=download&id={GDRIVE_ID}"
 SKINS_API = "https://api.github.com/repos/cjtemer-kaos/cobbleverse-pack/releases/tags/skins-v1"
+# Resource pack individual publicado como release GitHub (respack-*). Se descarga a
+# GAME_DIR/resourcepacks/ si falta o difiere en tamaño. Redundancia: el servidor tam
+#bien fuerza el pack al conectar (require-resource-pack=true).
+RESPACK_UPDATES = [
+    ("LATAMRUST_ES_1.21.1.zip",
+     "https://github.com/cjtemer-kaos/cobbleverse-pack/releases/download/respack-v1/LATAMRUST_ES_1.21.1.zip"),
+]
+# Rutas relativas a GAME_DIR de archivos OBSOLETOS a BORRAR en cada ACTUALIZAR
+# (ej. datapack "No Hunger" que dio problemas; agregar futuros archivos aqui)
+OBSOLETE_FILES = [
+    os.path.join("datapacks", "COBBLEVERSE - No Hunger.zip"),
+]
 VERSION = "5.0.0"
 
 logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG,
@@ -185,6 +197,35 @@ class Launcher:
 
     def _check_update(self):
         try:
+            # 0) Borrar archivos obsoletos (ej. datapack No Hunger)
+            for rel in OBSOLETE_FILES:
+                p = os.path.join(GAME_DIR, rel)
+                try:
+                    if os.path.exists(p):
+                        os.remove(p)
+                        log.info(f"Obsoleto eliminado: {rel}")
+                except Exception as e:
+                    log.warning(f"No se pudo borrar {rel}: {e}")
+
+            # 0.5) Resource packs (respack-*): descargar a resourcepacks/ si falta/desactualizado
+            rp_dir = os.path.join(GAME_DIR, "resourcepacks")
+            os.makedirs(rp_dir, exist_ok=True)
+            for rp_name, rp_url in RESPACK_UPDATES:
+                rp_path = os.path.join(rp_dir, rp_name)
+                try:
+                    if os.path.exists(rp_path):
+                        req_head = urllib.request.Request(rp_url, method="HEAD", headers={"User-Agent":"CobbleVerse/5.0"})
+                        with urllib.request.urlopen(req_head, timeout=15) as h:
+                            remote_size = int(h.headers.get("Content-Length", 0) or 0)
+                        if remote_size and os.path.getsize(rp_path) == remote_size:
+                            continue  # ya esta al dia
+                    log.info(f"Descargando resource pack: {rp_name}")
+                    self.root.after(0, lambda n=rp_name: self._set(f"Descargando {n}..."))
+                    urllib.request.urlretrieve(rp_url, rp_path)
+                    log.info(f"Resource pack descargado: {rp_name}")
+                except Exception as e:
+                    log.warning(f"Resource pack {rp_name} no actualizado: {e}")
+
             req = urllib.request.Request(SKINS_API, headers={"User-Agent":"CobbleVerse/5.0"})
             with urllib.request.urlopen(req, timeout=15) as r: release = json.loads(r.read())
             remote = release.get("tag_name","")

@@ -1,0 +1,3 @@
+# cm-custom
+
+Custom CM: class CM: def __enter__(self): setup(); return self. def __exit__(self, exc_type, exc_val, exc_tb): cleanup(); return False. Usage: with CM() as cm: ...

@@ -1,0 +1,3 @@
+# supernexus-v2-arquitectura-general
+
+SuperNEXUS v2 es un ecosistema local de IA soberano. Stack: Python 3.13.14, aiohttp, SQLite (cerebro.db). FLUJO: 1) Usuario escribe → UI React+Electron envía POST /api/chat o WS ws://localhost:9000/api/ws/chat. 2) server.py (aiohttp, puerto 9000) recibe. 3) DirectorNexus clasifica → decide gema. 4) Gema procesa con LLM local Ollama o cloud. 5) Respuesta al usuario. ARCHIVOS: src/api/server.py (servidor), src/core/director.py (orquestador 1449 lineas), src/core/ai_tools.py (herramientas LLM), src/core/model_registry.py (providers YAML), src/brain/cerebro.py (SQLite conocimiento), src/services/execution_service.py (pipeline), src/gemas_core/gemas.json (catalogo gemas). PUERTO: 9000.

@@ -1,0 +1,3 @@
+# Monitoring & Observability
+
+Three pillars: 1) Logs (structured JSON, correlation IDs, log levels, centralized in Elastic/Loki). 2) Metrics (RED method: Rate, Errors, Duration for services; USE method: Utilization, Saturation, Errors for resources). Prometheus + Grafana stack. 3) Traces (distributed tracing with OpenTelemetry, Jaeger/Tempo). Golden Signals (Google SRE): Latency, Traffic, Errors, Saturation. Dashboards: service-level (latency, error rate, throughput) and resource-level (CPU, memory, disk, network). Alerts: avoid firing on symptoms already tracked, use multi-window evaluation. SLI/SLO/SLA chain: measure SLI, set SLO target, SLA is contractual.

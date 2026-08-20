@@ -1,0 +1,3 @@
+# OWASP Top 10 — Critical Risks
+
+1) Broken Access Control: enforce per-user auth checks server-side, never trust client. 2) Cryptographic Failures: use HTTPS/TLS 1.3, encrypt secrets at rest, use strong hashes (bcrypt/Argon2). 3) Injection: parameterized queries, ORM, input validation. 4) Insecure Design: threat modeling, secure defaults. 5) Security Misconfiguration: disable debug, minimal ports, proper CORS. 6) Vulnerable Components: keep deps updated, SBOM, Dependabot/Renovate. 7) Auth Failures: MFA, rate limiting, session rotation. 8) Data Integrity: signed JWTs, CSP. 9) Logging/Monitoring: audit logs, alerting. 10) SSRF: validate URLs, block internal networks.

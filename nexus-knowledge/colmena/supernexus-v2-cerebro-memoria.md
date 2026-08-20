@@ -1,0 +1,3 @@
+# supernexus-v2-cerebro-memoria
+
+MEMORIA: cerebro.db SQLite con 442+ conocimientos, 3139+ conversaciones. nexus_memory.db FTS5 observations. FLUJO CONOCIMIENTO: Director busca cerebro PRIMERO. Si tiene → responde rápido. Si NO → Scholar web → Sage guarda → Director usa. MODULOS CEREBRO: cerebro.py(main), identity.py, routing.py(clasificacion), memory.py(working/episodic/semantic), tools.py, health.py, learning_system.py, procedural.py(how-to), salience.py(importancia), scratchpad.py(temporal), semantic_router.py, thompson_router.py(adaptive). COMO USA EL CEREBRO: obtener_conocimientos() + filtro keywords → si match: sintetiza LLM con conocimiento → si no: web research.
